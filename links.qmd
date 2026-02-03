@@ -1,0 +1,110 @@
+---
+title: "Further Resources"
+subtitle: "Handbook of Statistics of Extremes" 
+format: html
+engine: knitr
+---
+
+```{css, echo = FALSE}
+.justify {
+  text-align: justify !important
+}
+```
+
+![](images/cover.jpg){width="150px"}  
+
+<div class="handbook-banner">
+<p><strong>Further Books</strong> 
+
+::: {.justify}
+Several other excellent references are discussed throughout the book, with many of them highlighted in the opening Chapter 2 of the Handbook authored by Anthony C. Davison and Ophélia Miralles.<br><br>
+<div style="text-align: center;">
+![](images/chap2.png){fig-align="center" width="60%"}
+</div>
+:::
+</div>
+
+<div class="handbook-banner">
+<p><strong>EVA Conference</strong> 
+
+::: {.justify}
+Many developments featured in this Handbook were first presented at the EVA Conference, a long-standing forum that brings together researchers and practitioners working on Extreme Value Analysis. Since its inception, the EVA conference has played a central role in fostering collaboration and shaping the field. The EVA Conference traces its origins to the first meeting on *Statistical Extremes and Applications* (EVA 0), held in Vimeiro, Portugal, in 1983. 
+:::
+<div style="text-align: center;">
+![](images/vimeiro.jpg){fig-align="center" width="60%"}
+<br>
+EVA 0 — Statistical Extremes and Applications, Vimeiro, Portugal (1983).  
+Courtesy of Feridun Turkman and Laurens de Haan.
+</div>
+
+<a href="https://hecsciencesdecision.github.io/eva2027/">Join us at EVA 2027 in Montréal.</a>
+</div>
+
+<div class="handbook-banner">
+<p><strong>_Extremes_</strong> 
+
+::: {.justify}
+An indicator of the field’s vitality is the Springer journal <a href = "https://www.springer.com/journal/10687/">_Extremes_</a>, which regularly publishes novel methodological developments across all areas of extreme value statistics. While a range of other outlets feature work on the statistical modeling of extreme events, _Extremes_ is widely regarded as the leading journal within the extreme value theory community. Many of the central developments presented in the Handbook have been published in _Extremes_ or in other leading journals in the field.<br>
+:::
+<div style="text-align: center;">
+![](images/extremes.jpg){fig-align="center" width="150px"}<br>
+![](images/springer.png){fig-align="center" width="150px"}
+</div>
+</div>
+
+<div class="handbook-banner">
+<p><strong>Software</strong> 
+
+::: {.justify}
+This Handbook owes much to the publicly available software developed for extreme value analysis. A curated list of \textsf{R} packages for statistics of extremes is available at
+:::
+
+<div style="text-align: center;">
+<a href = "https://cran.r-project.org/web/views/ExtremeValue.html">https://cran.r-project.org/web/views/ExtremeValue.html</a>
+</div>
+<br>
+<div style="text-align: center;">
+![](images/rlogo.png){fig-align="center" width="20%"}
+</div>
+::: {.justify}
+Several \textsf{R} packages are used throughout the book, including <code>evd</code>, <code>evdbayes</code>, <code>evgam</code>, <code>evir</code>, <code>extRemes</code>, <code>extremis</code>, <code>ismev2</code>, <code>POT</code>, and <code>SpatialExtremes</code>. Additional packages are employed in specific chapters, and contributors acknowledge them where relevant.
+:::
+</div>
+
+<div class="handbook-banner">
+<p><strong>Seminars</strong> 
+
+::: {.justify}
+The *One World Extremes* seminar series, supported by the Bernoulli Society, connects researchers in the field and features both theoretical developments and applied work in extreme value analysis.
+:::
+::: {.text-center}
+<https://sites.google.com/view/ow-extremes/home>
+:::
+<div style="text-align: center;"><br>
+![](images/one_world.jpg){fig-align="center" width="20%"}
+<br>
+![](images/bernoulli.jpg){fig-align="center" width="20%"}
+</div>
+</div>
+
+<div class="handbook-banner">
+<p><strong>EVA Newsletter</strong> 
+
+::: {.justify}
+
+The newsletter provides a convenient way to advertise opportunities relevant to the worldwide Extreme Value Analysis community, and to allow its members to easily keep abreast of some of the most recent developments. For more information and to subscribe, email [e.v.analysis.news@gmail.com](mailto:e.v.analysis.news@gmail.com)
+
+:::
+</div>
+
+<div class="handbook-banner">
+<p><strong>Miscellaneous</strong> 
+
+::: {.justify}
+
+Other meetings, such as EVAN (International Conference on Advances in Extreme Value Analysis), also provide valuable forums for discussion. Several networks devoted to extreme value theory are active; for example, in Scotland, the 
+<a href = "https://www.gla.ac.uk/schools/mathematicsstatistics/staff/danielacastrocamilo/glenglasgow-edinburghextremesnetwork/">
+Glasgow--Edinburgh Extremes Network (GLE$^2$N)</a> has provided leadership for a range of activities and events, including <a href = "https://gail.ed.ac.uk/news-and-events/events/generative-ai-modelling-for-extreme-events-2025">GAME 2025</a>---the first workshop on Generative AI Modeling for Extreme Events. A related network is also active in Italy.
+
+:::
+</div>

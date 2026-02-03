@@ -1,0 +1,13 @@
+---
+title: "Chapters"
+subtitle: "Handbook of Statistics of Extremes" 
+---
+
+
+![](images/cover.jpg){width="150px"}  
+
+<iframe src="images/chapters.pdf"
+        width="100%"
+        height="800px"
+        style="border: none;">
+</iframe>

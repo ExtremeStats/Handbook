@@ -1,0 +1,172 @@
+---
+title: "Editors & Contributors"
+subtitle: "Handbook of Statistics of Extremes" 
+---
+
+![](images/cover.jpg){width="150px"}  
+
+## Editors
+
+```{=html}
+<style>
+.contributors-list{display:flex;flex-direction:column;gap:.8rem;margin-top:1rem}
+.contributor{display:flex;justify-content:space-between;align-items:center;background:#f7fbff;border-left:4px solid #003366;padding:.8rem 1rem;border-radius:6px;line-height:1.4}
+.contributor-text{flex:1;padding-right:1rem}
+.name-box{display:inline-block;border:1px solid #003366;border-radius:4px;padding:2px 6px;background:#fff;font-weight:600;color:#003366;margin-bottom:.3rem}
+.contributor img{width:80px;height:80px;object-fit:cover;border-radius:8px;border:1px solid #ccc;margin-left:12px}
+@media (max-width:600px){.contributor{flex-direction:column;align-items:flex-start}.contributor img{margin:.5rem 0 0 auto}}
+</style>
+
+<div class="contributors-list">
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Miguel de Carvalho</div><br>University of Edinburgh (SoM)<br>Universidade de Aveiro (DoM, CIDMA)<br>Edinburgh, UK; Aveiro, Portugal</div><img src="images/contributors/decarvalho.jpg" alt="Miguel de Carvalho"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Raphaël Huser</div><br>Statistics Program, CEMSE Division<br>King Abdullah University of Science and Technology (KAUST)<br>Thuwal, Saudi Arabia</div><img src="images/contributors/huser.jpg" alt="Raphaël Huser"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Philippe Naveau</div><br>Laboratoire des Sciences du Climat et de l’Environnement (CNRS)<br>Gif-sur-Yvette, France</div><img src="images/contributors/naveau.jpg" alt="Philippe Naveau"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Brian J. Reich</div><br>Department of Statistics<br>North Carolina State University<br>Raleigh, NC USA</div><img src="images/contributors/reich.jpg" alt="Brian J. Reich"></div>
+
+</div>
+```
+
+## Contributors
+
+```{=html}
+<style>
+.contributors-list{display:flex;flex-direction:column;gap:.8rem;margin-top:1rem}
+.contributor{display:flex;justify-content:space-between;align-items:center;background:#f7fbff;border-left:4px solid #003366;padding:.8rem 1rem;border-radius:6px;line-height:1.4}
+.contributor-text{flex:1;padding-right:1rem}
+.name-box{display:inline-block;border:1px solid #003366;border-radius:4px;padding:2px 6px;background:#fff;font-weight:600;color:#003366;margin-bottom:.3rem}
+.contributor img{width:80px;height:80px;object-fit:cover;border-radius:8px;border:1px solid #ccc;margin-left:12px}
+@media (max-width:600px){.contributor{flex-direction:column;align-items:flex-start}.contributor img{margin:.5rem 0 0 auto}}
+</style>
+
+<div class="contributors-list">
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Hansjörg Albrecher</div><br>Department of Actuarial Science & Expertise Center for Climate Extremes<br>University of Lausanne<br>Lausanne, Switzerland</div><img src="images/contributors/albrecher.jpg" alt="Hansjörg Albrecher"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Michaël Allouche</div><br>Kaiko — Quantitative Data<br>Paris, France</div><img src="images/contributors/allouche.png" alt="Michaël Allouche"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Graeme Auld</div><br>Department of Mathematics & Computer Science<br>Chulalongkorn University<br>Bangkok, Thailand</div><img src="images/contributors/auld.jpg" alt="Graeme Auld"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Jan Beirlant</div><br>Department of Mathematics<br>KU Leuven<br>Leuven, Belgium</div><img src="images/contributors/beirlant.png" alt="Jan Beirlant"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Léo R. Belzile</div><br>Department of Decision Sciences<br>HEC Montréal<br>Montréal, Canada</div><img src="images/contributors/belzile.jpg" alt="Léo R. Belzile"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Viviana Carcaiso</div><br>Biostatistics & Spatial Processes, INRAE<br>Avignon, France</div><img src="images/contributors/carcaiso.jpg" alt="Viviana Carcaiso"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">David L. Carl</div><br>Department of Decision Sciences<br>Bocconi University<br>Milan, Italy</div><img src="images/contributors/carl.jpg" alt="David L. Carl"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Daniel Cooley</div><br>Department of Statistics<br>Colorado State University<br>Fort Collins, CO USA</div><img src="images/contributors/cooley.jpg" alt="Daniel Cooley"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Daniela Castro-Camilo</div><br>School of Mathematics & Statistics<br>University of Glasgow<br>Glasgow, UK</div><img src="images/contributors/castro.jpg" alt="Daniela Castro-Camilo"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Valérie Chavez-Demoulin</div><br>Department of Operations & Expertise Center for Climate Extremes<br>University of Lausanne<br>Lausanne, Switzerland</div><img src="images/contributors/chavez.jpg" alt="Valérie Chavez-Demoulin"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Abdelaati Daouia</div><br>Toulouse School of Economics<br>University of Toulouse Capitole<br>Toulouse, France</div><img src="images/contributors/daouia.jpg" alt="Abdelaati Daouia"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Anthony C. Davison</div><br>Institute of Mathematics<br>École Polytechnique Fédérale de Lausanne<br>Lausanne, Switzerland</div><img src="images/contributors/davison.jpg" alt="Anthony C. Davison"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Miguel de Carvalho</div><br>University of Edinburgh (SoM)<br>Universidade de Aveiro (DoM, CIDMA)<br>Edinburgh, UK; Aveiro, Portugal</div><img src="images/contributors/decarvalho.jpg" alt="Miguel de Carvalho"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Lambert de Monte</div><br>School of Mathematics<br>University of Edinburgh<br>Edinburgh, UK</div><img src="images/contributors/demonte.jpg" alt="Lambert de Monte"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Clément Dombry</div><br>Université de Franche-Comté<br>Besançon, France</div><img src="images/contributors/dombry.jpg" alt="Clément Dombry"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Sebastian Engelke</div><br>Research Center for Statistics, GSEM<br>University of Geneva<br>Geneva, Switzerland</div><img src="images/contributors/engelke.jpg" alt="Sebastian Engelke"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Carlo Gaetan</div><br>Dipartimento di Scienze Ambientali, Informatica e Statistica<br>Università Ca' Foscari di Venezia<br>Venice, Italy</div><img src="images/contributors/gaetan.jpg" alt="Carlo Gaetan"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Stéphane Girard</div><br>Univ. Grenoble Alpes, Inria, CNRS, Grenoble INP, LJK<br>Grenoble, France</div><img src="images/contributors/girard.jpg" alt="Stéphane Girard"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Emmanuel Gobet</div><br>Centre de Mathématiques Appliquées, CNRS, École Polytechnique, Institut Polytechnique de Paris<br>Palaiseau, France</div><img src="images/contributors/gobet.jpg" alt="Emmanuel Gobet"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Matheus B. Guerrero</div><br>Department of Mathematics<br>California State University<br>Fullerton, California</div><img src="images/contributors/guerrero.jpg" alt="Matheus B. Guerrero"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Lígia Henriques-Rodrigues</div><br>School of Science & Technology<br>University of Évora — CIMA & CEAUL<br>Évora, Portugal</div><img src="images/contributors/henriquesrodrigues.jpg" alt="Lígia Henriques-Rodrigues"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Manuel Hentschel</div><br>Research Center for Statistics, GSEM<br>University of Geneva<br>Geneva, Switzerland</div><img src="images/contributors/hentschel.jpg" alt="Manuel Hentschel"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Raphaël Huser</div><br>Statistics Program, CEMSE Division<br>King Abdullah University of Science and Technology (KAUST)<br>Thuwal, Saudi Arabia</div><img src="images/contributors/huser.jpg" alt="Raphaël Huser"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Anja Janssen</div><br>Otto von Guericke University Magdeburg<br>Magdeburg, Germany</div><img src="images/contributors/janssen.jpg" alt="Anja Janssen"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Anna Kiriliouk</div><br>Namur Institute for Complex Systems<br>Université de Namur<br>Namur, Belgium</div><img src="images/contributors/kiriliouk.jpg" alt="Anna Kiriliouk"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Jonathan Koh</div><br>Seminar for Statistics<br>ETH Zürich<br>Zürich, Switzerland</div><img src="images/contributors/koh.jpg" alt="Jonathan Koh"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Michaël Lalancette</div><br>Département de Mathématiques<br>Université du Québec à Montréal<br>Montréal, Canada</div><img src="images/contributors/lalancette.jpg" alt="Michaël Lalancette"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Myung Won Lee</div><br>School of Mathematics<br>University of Edinburgh<br>Edinburgh, UK</div><img src="images/contributors/lee.jpg" alt="Myung Won Lee"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Juliette Legrand</div><br>Université de Bretagne Occidentale<br>Brest, France</div><img src="images/contributors/legrand.jpg" alt="Juliette Legrand"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Luigi Lombardo</div><br>ITC, Faculty of Geo-Information Science & Earth Observation<br>University of Twente<br>Enschede, The Netherlands</div><img src="images/contributors/lombardo.jpg" alt="Luigi Lombardo"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Reetam Majumder</div><br>Department of Mathematical Sciences<br>University of Arkansas<br>Fayetteville, AR USA</div><img src="images/contributors/majumder.jpg" alt="Reetam Majumder"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Linda Mhalla</div><br>Institute of Mathematics<br>École Polytechnique Fédérale de Lausanne<br>Lausanne, Switzerland</div><img src="images/contributors/mhalla.jpg" alt="Linda Mhalla"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Ophélia Miralles</div><br>Center for Climate Systems Modeling<br>ETH Zürich<br>Zürich, Switzerland</div><img src="images/contributors/miralles.jpg" alt="Ophélia Miralles"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Philippe Naveau</div><br>Laboratoire des Sciences du Climat et de l’Environnement (CNRS)<br>Gif-sur-Yvette, France</div><img src="images/contributors/naveau.jpg" alt="Philippe Naveau"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Johanna G. Nešlehová</div><br>Department of Mathematics & Statistics<br>McGill University<br>Montréal, Canada</div><img src="images/contributors/neslehova.jpg" alt="Johanna G. Nešlehová"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Marco Oesting</div><br>Stuttgart Center for Simulation Science; Institute for Stochastics and Applications<br>University of Stuttgart<br>Stuttgart, Germany</div><img src="images/contributors/oesting.jpg" alt="Marco Oesting"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Hernando Ombao</div><br>Statistics Program, CEMSE Division<br>King Abdullah University of Science and Technology (KAUST)<br>Thuwal, Saudi Arabia</div><img src="images/contributors/ombao.jpg" alt="Hernando Ombao"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Thomas Opitz</div><br>Biostatistics and Spatial Processes, INRAE<br>Avignon, France</div><img src="images/contributors/opitz.jpg" alt="Thomas Opitz"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Simone A. Padoan</div><br>Department of Decision Sciences<br>Bocconi University<br>Milan, Italy</div><img src="images/contributors/padoan.jpg" alt="Simone A. Padoan"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Vianey Palacios Ramirez</div><br>School of Mathematics, Statistics & Physics<br>Newcastle University<br>Newcastle, UK</div><img src="images/contributors/palacios.jpg" alt="Vianey Palacios Ramirez"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Ioannis Papastathopoulos</div><br>School of Mathematics<br>University of Edinburgh<br>Edinburgh, UK</div><img src="images/contributors/papastathopoulos.jpg" alt="Ioannis Papastathopoulos"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Paolo V. Redondo</div><br>Statistics Program, CEMSE Division<br>King Abdullah University of Science and Technology (KAUST)<br>Thuwal, Saudi Arabia</div><img src="images/contributors/redondo.png" alt="Paolo V. Redondo"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Brian J. Reich</div><br>Department of Statistics<br>North Carolina State University<br>Raleigh, NC USA</div><img src="images/contributors/reich.jpg" alt="Brian J. Reich"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Jordan Richards</div><br>School of Mathematics<br>University of Edinburgh<br>Edinburgh, UK</div><img src="images/contributors/richards.png" alt="Jordan Richards"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Stefano Rizzelli</div><br>Department of Statistics<br>University of Padova<br>Padova, Italy</div><img src="images/contributors/stefano.png" alt="Stefano Rizzelli"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Christian Rohrbeck</div><br>Department of Mathematical Sciences<br>University of Bath<br>Bath, UK</div><img src="images/contributors/christian.png" alt="Christian Rohrbeck"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Frank Röttger</div><br>Department of Mathematics & Computer Science<br>TU Eindhoven<br>Eindhoven, The Netherlands</div><img src="images/contributors/roettger.png" alt="Frank Röttger"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Anne Sabourin</div><br>Université Paris Cité, CNRS, MAP5; Télécom Paris, Institut Polytechnique de Paris<br>Paris, France</div><img src="images/contributors/sabourin.jpg" alt="Anne Sabourin"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Johan Segers</div><br>Department of Mathematics<br>KU Leuven<br>Leuven, Belgium</div><img src="images/contributors/segers.png" alt="Johan Segers"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Benjamin A. Shaby</div><br>Department of Statistics<br>Colorado State University<br>Fort Collins, CO USA</div><img src="images/contributors/shaby.png" alt="Benjamin A. Shaby"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Emma S. Simpson</div><br>Department of Statistical Science<br>University College London<br>London, UK</div><img src="images/contributors/simpson.jpg" alt="Emma S. Simpson"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Richard L. Smith</div><br>Department of Statistics and Operations Research<br>University of North Carolina<br>Chapel Hill, NC USA</div><img src="images/contributors/smith.jpg" alt="Richard L. Smith"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Kirstin Strokorb</div><br>School of Mathematics<br>Cardiff University<br>Cardiff, UK</div><img src="images/contributors/strokorb.jpg" alt="Kirstin Strokorb"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Gilles Stupfler</div><br>University of Angers; CNRS, LAREMA, SFR MATHSTIC<br>Angers, France</div><img src="images/contributors/stupfler.jpg" alt="Gilles Stupfler"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Thordis L. Thorarinsdottir</div><br>Department of Mathematics<br>University of Oslo<br>Oslo, Norway</div><img src="images/contributors/thordis.jpg" alt="Thordis L. Thorarinsdottir"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Gwladys Toulemonde</div><br>IMAG, Univ. Montpellier, CNRS, Inria<br>Montpellier, France</div><img src="images/contributors/toulemonde.png" alt="Gwladys Toulemonde"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Jennifer L. Wadsworth</div><br>School of Mathematical Sciences<br>Lancaster University<br>Lancaster, UK</div><img src="images/contributors/wadsworth.jpg" alt="Jennifer L. Wadsworth"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Phyllis Wan</div><br>Erasmus School of Economics<br>Erasmus University Rotterdam<br>Rotterdam, The Netherlands</div><img src="images/contributors/phyllis.jpg" alt="Phyllis Wan"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Troy P. Wixson</div><br>Department of Statistics<br>Colorado State University<br>Fort Collins, Colorado, USA</div><img src="images/contributors/wixson.jpg" alt="Troy P. Wixson"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Rishikesh Yadav</div><br>Department of Mathematics and Mathematical Statistics<br>Umeå University<br>Umeå, Sweden</div><img src="images/contributors/yadav.png" alt="Rishikesh Yadav"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Likun Zhang</div><br>Department of Statistics<br>University of Missouri<br>Columbia, Missouri, USA</div><img src="images/contributors/zhang.jpg" alt="Likun Zhang"></div>
+
+<div class="contributor"><div class="contributor-text"><div class="name-box">Chen Zhou</div><br>Erasmus School of Economics<br>Erasmus University Rotterdam<br>Rotterdam, The Netherlands</div><img src="images/contributors/zhou.jpg" alt="Chen Zhou"></div>
+
+</div>
+```

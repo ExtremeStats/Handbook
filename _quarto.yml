@@ -3,13 +3,16 @@ project:
   output-dir: docs
 
 website:
-  title: "Handbook"
+  title: "Handbook of Statistics of Extremes"
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - about.qmd
-
+        text: About
+      - codedata.qmd
+      - suppinfo.qmd
+      - edicont.qmd
+      - links.qmd
+      
 format:
   html:
     theme: cosmo

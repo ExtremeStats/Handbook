@@ -1,11 +1,65 @@
 ---
-title: "Handbook"
+title: "Handbook of Statistics of Extremes"
+subtitle: "Chapman & Hall/CRC" 
+format: html
+engine: knitr
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
+```{css, echo = FALSE}
+.justify {
+  text-align: justify !important
+}
 ```
+
+![](images/cover.jpg){width="150px"}
+<div class="handbook-banner">
+<p><strong>About the Handbook</strong> 
+
+::: {.justify}
+<p>Welcome to the webpage of the Handbook of Statistics of Extremes. 
+The Handbook brings together leading voices in the extreme value theory 
+community to offer a clear and reliable reference for the field.
+
+This webpage outlines the Handbook’s contents and provides supporting online 
+materials.
+
+The Handbook is currently with the production team at Chapman & Hall/CRC and is 
+expected to be released in mid-2026. 
+
+This page is under construction and will keep being expanded in the coming weeks.
+</p>
+</div>
+:::
+
+<div class="handbook-banner">
+  <p><strong>How to cite</strong> 
+
+```bibtex
+@book{HandbookExtremes2026,
+  author    = {{de Carvalho}, M. and Huser, R. and Naveau, P. and Reich, B. J.},
+  year      = {2026},
+  title     = {Handbook of Statistics of Extremes},
+  publisher = {Chapman \& Hall/CRC},
+  address   = {Boca Raton, FL}
+}
+```
+
+<p> In addition to citing the Handbook, please also cite the specific chapter you are referring to. <a href="library.bib" download>Click here for BibTeX entries for all chapters.</a> </p> </div> 
+<!--
+<a href="https://www.amazon.com/Handbook-Statistics-Extremes-Handbooks-Statistical/dp/1032519800" target="_blank">
+→ Pre-order your copy
+</a><br><br>
+-->
+<div class="handbook-banner">
+<p><strong>Pre-order your copy</strong> <br>
+```{=html}
+<a href="https://www.amazon.com/Handbook-Statistics-Extremes-Handbooks-Statistical/dp/1032519800" style="margin-left: 5px;margin-right: 225px"><img src="images/amazon.svg" width="75px" alt="Pre-order on Amazon"></a>
+
+<a href="https://www.barnesandnoble.com/w/handbook-of-statistics-of-extremes-miguel-de-carvalho/1148829252" style="margin-left: 5px;margin-right: 225px"><img src="images/barnes.png" width="100px" alt="Pre-order on Barnes & Noble"></a>
+
+<a href="https://www.waterstones.com/book/handbook-of-statistics-of-extremes/miguel-de-carvalho/rapha-l-huser/9781032519807"><img src="images/waterstones.png" width="100px" alt="Pre-order on Waterstones" style="margin-left: -3px"></a>
+```
+</p>
+</div> 
+
+
