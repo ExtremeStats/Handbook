@@ -82,7 +82,7 @@ command.
 ## DOWNLOADING A PACKAGE WITH COMMAND 'DATASET'
 install.packages("DATAstudio")
 library(DATAstudio)
-dataset(venice)
+dataset("venice")
 venice
 ```
 <p> To cite <code>DATAstudio</code> in publications, here is the <a href="library.bib" download>BibTeX entry</a>. 
