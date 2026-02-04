@@ -85,6 +85,9 @@ library(DATAstudio)
 dataset("venice")
 venice
 ```
+<div style="text-align: center;">
+![](images/datastudio.png){fig-align="center" width="20%"}
+</div>
 <p> To cite <code>DATAstudio</code> in publications, here is the <a href="library.bib" download>BibTeX entry</a>. 
 </div>
 
@@ -92,7 +95,7 @@ venice
 
 <div class="parts">
 
-<details open>
+<details close>
 <summary>Part I. Opening Remarks</summary>
 <ul class="chapters">
   <li>
