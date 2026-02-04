@@ -122,7 +122,7 @@ venice
   <li><span class="chapter-title">7. Multivariate Extreme Value Theory</span><br><span class="chapter-authors">Dataset: None</span></li>
   <li><span class="chapter-title">8. Measures of Extremal Dependence</span><br><span class="chapter-authors">Dataset: <code>crypto</code></span></li>
   <li><span class="chapter-title">9. Regression Models for Multivariate Extremes</span><br><span class="chapter-authors">Dataset: <code>marketsUS</code>; <code>hurricane</code></span></li>
-  <li><span class="chapter-title">10. Conditional Extremes Modeling</span><br><span class="chapter-authors">Dataset: None</span></li>
+  <li><span class="chapter-title">10. Conditional Extremes Modeling</span><br><span class="chapter-authors">Dataset: <code>bournemouth</code>; <code>netherlands</code></span></li>
   <li><span class="chapter-title">11. Principal Component Analysis for Multivariate Extremes</span><br><span class="chapter-authors">Dataset: None</span></li>
   <li><span class="chapter-title">12. Clustering Methods for Multivariate Extremes</span><br><span class="chapter-authors">Dataset: None</span></li>
   <li><span class="chapter-title">13. Graphical Models for Multivariate Extremes</span><br><span class="chapter-authors">Dataset: None</span></li>
