@@ -72,18 +72,15 @@ border: none;
 
 ::: {.justify}
 Most datasets used in the Handbook are available through the R package
-<code>DATAstudio</code>. Datasets can be loaded either with the base R
-command <code>data()</code> or downloaded with the <code>DATAstudio</code> command
-<code>dataset()</code>. Given CRAN space constraints, some datasets cannot be 
-included directly; these can still be accessed using the <code>dataset()</code> 
-command.
+<code>DATAstudio</code>. Datasets can be downloaded with the <code>DATAstudio</code> command
+<code>dataset()</code>. For instance:
 :::
 ```r
 ## DOWNLOADING A PACKAGE WITH COMMAND 'DATASET'
 install.packages("DATAstudio")
 library(DATAstudio)
-dataset("venice")
-venice
+dataset("lisbon")
+?lisbon
 ```
 <div style="text-align: center;">
 ![](images/datastudio.png){fig-align="center" width="20%"}
@@ -133,7 +130,7 @@ venice
 <summary>Part IV. Spatial and Temporal Extremes</summary>
 <ul class="chapters">
   <li><span class="chapter-title">14. Time Series in Extremes</span><br><span class="chapter-authors">Dataset: None</span></li>
-  <li><span class="chapter-title">15. Max-Stable Processes for Spatial Extremes</span><br><span class="chapter-authors">Dataset: None</span></li>
+  <li><span class="chapter-title">15. Max-Stable Processes for Spatial Extremes</span><br><span class="chapter-authors">Dataset: <code>maxtemps</code></span></li>
   <li><span class="chapter-title">16. Pareto Processes for Threshold Exceedances in Spatial Extremes</span><br><span class="chapter-authors">Dataset: None</span></li>
   <li><span class="chapter-title">17. Subasymptotic Models for Spatial Extremes</span><br><span class="chapter-authors">Dataset: None</span></li>
   <li><span class="chapter-title">18. Space-Time Modeling of Extremes</span><br><span class="chapter-authors">Dataset: None</span></li>

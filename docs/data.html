@@ -241,13 +241,13 @@ border: none;
 <p>
 </p><p><strong>Loading &amp; Downloading Data</strong></p>
 <div class="justify">
-<p>Most datasets used in the Handbook are available through the R package <code>DATAstudio</code>. Datasets can be loaded either with the base R command <code>data()</code> or downloaded with the <code>DATAstudio</code> command <code>dataset()</code>. Given CRAN space constraints, some datasets cannot be included directly; these can still be accessed using the <code>dataset()</code> command.</p>
+<p>Most datasets used in the Handbook are available through the R package <code>DATAstudio</code>. Datasets can be downloaded with the <code>DATAstudio</code> command <code>dataset()</code>. For instance:</p>
 </div>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="do">## DOWNLOADING A PACKAGE WITH COMMAND 'DATASET'</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"DATAstudio"</span>)</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(DATAstudio)</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">dataset</span>(<span class="st">"venice"</span>)</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>venice</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">dataset</span>(<span class="st">"lisbon"</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>?lisbon</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div style="text-align: center;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -329,7 +329,7 @@ Part IV. Spatial and Temporal Extremes
 <span class="chapter-title">14. Time Series in Extremes</span><br><span class="chapter-authors">Dataset: None</span>
 </li>
 <li>
-<span class="chapter-title">15. Max-Stable Processes for Spatial Extremes</span><br><span class="chapter-authors">Dataset: None</span>
+<span class="chapter-title">15. Max-Stable Processes for Spatial Extremes</span><br><span class="chapter-authors">Dataset: <code>maxtemps</code></span>
 </li>
 <li>
 <span class="chapter-title">16. Pareto Processes for Threshold Exceedances in Spatial Extremes</span><br><span class="chapter-authors">Dataset: None</span>
