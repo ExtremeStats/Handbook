@@ -37,14 +37,14 @@ EVA 0 — Statistical Extremes and Applications, Vimeiro, Portugal (1983).
 Courtesy of Feridun Turkman and Laurens de Haan.
 </div>
 
-<a href="https://hecsciencesdecision.github.io/eva2027/">Join us at EVA 2027 in Montréal.</a>
+<a href="https://hecsciencesdecision.github.io/eva2027/" target = "_blank">Join us at EVA 2027 in Montréal.</a>
 </div>
 
 <div class="handbook-banner">
 <p><strong>_Extremes_</strong> 
 
 ::: {.justify}
-An indicator of the field’s vitality is the Springer journal <a href = "https://www.springer.com/journal/10687/">_Extremes_</a>, which regularly publishes novel methodological developments across all areas of extreme value statistics. While a range of other outlets feature work on the statistical modeling of extreme events, _Extremes_ is widely regarded as the leading journal within the extreme value theory community. Many of the central developments presented in the Handbook have been published in _Extremes_ or in other leading journals in the field.<br>
+An indicator of the field’s vitality is the Springer journal <a href = "https://www.springer.com/journal/10687/" target = "_blank">_Extremes_</a>, which regularly publishes novel methodological developments across all areas of extreme value statistics. While a range of other outlets feature work on the statistical modeling of extreme events, _Extremes_ is widely regarded as the leading journal within the extreme value theory community. Many of the central developments presented in the Handbook have been published in _Extremes_ or in other leading journals in the field!<br>
 :::
 <div style="text-align: center;">
 ![](images/extremes.jpg){fig-align="center" width="150px"}<br>
@@ -60,7 +60,7 @@ This Handbook owes much to the publicly available software developed for extreme
 :::
 
 <div style="text-align: center;">
-<a href = "https://cran.r-project.org/web/views/ExtremeValue.html">https://cran.r-project.org/web/views/ExtremeValue.html</a>
+<a href = "https://cran.r-project.org/web/views/ExtremeValue.html" target = "_blank">https://cran.r-project.org/web/views/ExtremeValue.html</a>
 </div>
 <br>
 <div style="text-align: center;">
@@ -92,7 +92,8 @@ The *One World Extremes* seminar series, supported by the Bernoulli Society, con
 
 ::: {.justify}
 
-The newsletter provides a convenient way to advertise opportunities relevant to the worldwide Extreme Value Analysis community, and to allow its members to easily keep abreast of some of the most recent developments. For more information and to subscribe, email [e.v.analysis.news@gmail.com](mailto:e.v.analysis.news@gmail.com)
+The newsletter provides a convenient way to advertise opportunities relevant to the worldwide Extreme Value Analysis community, and to allow its members to easily keep abreast of some of the most recent developments. For more information and to subscribe, email 
+<a href="mailto:e.v.analysis.news@gmail.com?subject=Subscribe%20EVA%20Newsletter">e.v.analysis.news@gmail.com</a>
 
 :::
 </div>
@@ -103,8 +104,8 @@ The newsletter provides a convenient way to advertise opportunities relevant to 
 ::: {.justify}
 
 Other meetings, such as EVAN (International Conference on Advances in Extreme Value Analysis), also provide valuable forums for discussion. Several networks devoted to extreme value theory are active; for example, in Scotland, the 
-<a href = "https://www.gla.ac.uk/schools/mathematicsstatistics/staff/danielacastrocamilo/glenglasgow-edinburghextremesnetwork/">
-Glasgow--Edinburgh Extremes Network (GLE$^2$N)</a> has provided leadership for a range of activities and events, including <a href = "https://gail.ed.ac.uk/news-and-events/events/generative-ai-modelling-for-extreme-events-2025">GAME 2025</a>---the first workshop on Generative AI Modeling for Extreme Events. A related network is also active in Italy.
+<a href = "https://www.gla.ac.uk/schools/mathematicsstatistics/staff/danielacastrocamilo/glenglasgow-edinburghextremesnetwork/" target = "_blank">
+Glasgow--Edinburgh Extremes Network (GLE$^2$N)</a> has provided leadership for a range of activities and events, including <a href = "https://gail.ed.ac.uk/news-and-events/events/generative-ai-modelling-for-extreme-events-2025" target = "_blank">GAME 2025</a>---the first workshop on Generative AI Modeling for Extreme Events. A related network is also active in Italy.
 
 :::
 </div>
