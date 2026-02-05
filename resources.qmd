@@ -39,7 +39,7 @@ Many developments featured in this Handbook were first presented at the EVA Conf
 Courtesy of Feridun Turkman and Laurens de Haan.*
 </div>
 
-<a href="https://hecsciencesdecision.github.io/eva2027/" target = "_blank">Join us at EVA 2027 in Montréal.</a>
+<a href="https://hecsciencesdecision.github.io/eva2027/" target = "_blank" rel="noopener">Join us at EVA 2027 in Montréal.</a>
 </div>
 
 <div class="handbook-banner">
