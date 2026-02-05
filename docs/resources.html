@@ -69,35 +69,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -211,89 +182,9 @@ Courtesy of Feridun Turkman and Laurens de Haan.</p>
 </div>
 <a href="https://hecsciencesdecision.github.io/eva2027/" target="_blank" rel="noopener">Join us at EVA 2027 in Montréal!</a>
 </div>
-<div class="handbook-banner">
-<p>
-</p><p><strong><em>Extremes</em></strong></p>
-<div class="justify">
-<p>An indicator of the field’s vitality is the Springer journal <a href="https://www.springer.com/journal/10687/" target="_blank"><em>Extremes</em></a>, which regularly publishes novel methodological developments across all areas of extreme value statistics. While a range of other outlets feature work on the statistical modeling of extreme events, <em>Extremes</em> is widely regarded as the leading journal within the extreme value theory community. Many of the central developments presented in the Handbook have been published in <em>Extremes</em> or in other leading journals in the field.</p>
-</div>
-<div style="text-align: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/extremes.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:20.0%"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/springer.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:20.0%"></p>
-</figure>
-</div>
-</div>
-</div>
-<div class="handbook-banner">
-<p>
-</p><p><strong>Software</strong></p>
-<div class="justify">
-<p>This Handbook owes much to the publicly available software developed for extreme value analysis. A curated list of packages for statistics of extremes is available at</p>
-</div>
-<div style="text-align: center;">
-<p><a href="https://cran.r-project.org/web/views/ExtremeValue.html" target="_blank">https://cran.r-project.org/web/views/ExtremeValue.html</a></p>
-</div>
-<div style="text-align: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/rlogo.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:20.0%"></p>
-</figure>
-</div>
-</div>
-<div class="justify">
-<p>Several packages are used throughout the book, including <code>evd</code>, <code>evdbayes</code>, <code>evgam</code>, <code>evir</code>, <code>extRemes</code>, <code>extremis</code>, <code>ismev2</code>, <code>POT</code>, and <code>SpatialExtremes</code>. Additional packages are employed in specific chapters, and contributors acknowledge them where relevant.</p>
-</div>
-</div>
-<div class="handbook-banner">
-<p>
-</p><p><strong>Seminars</strong></p>
-<div class="justify">
-<p>The <em>One World Extremes</em> seminar series, supported by the Bernoulli Society, connects researchers in the field and features both theoretical developments and applied work in extreme value analysis.</p>
-</div>
-<div class="text-center">
-<p><a href="https://sites.google.com/view/ow-extremes/home" target="_blank">https://sites.google.com/view/ow-extremes/home</a></p>
-</div>
-<div style="text-align: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/one_world.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:20.0%"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/bernoulli.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:20.0%"></p>
-</figure>
-</div>
-</div>
-</div>
-<div class="handbook-banner">
-<p>
-</p><p><strong>EVA Newsletter</strong></p>
-<div class="justify">
-<p>The <em>One World Extremes</em> seminar series, supported by the Bernoulli Society, connects researchers in the field and features both theoretical developments and applied work in extreme value analysis. For more information and to subscribe, email <a href="mailto:e.v.analysis.news@gmail.com?subject=Subscribe%20EVA%20Newsletter">e.v.analysis.news@gmail.com</a></p>
-</div>
-</div>
-<div class="handbook-banner">
-<p>
-</p><p><strong>Miscellaneous</strong></p>
-<div class="justify">
-<p>Other meetings, such as EVAN (International Conference on Advances in Extreme Value Analysis), also provide valuable forums for discussion. Several networks devoted to extreme value theory are active; for example, in Scotland, the <a href="https://www.gla.ac.uk/schools/mathematicsstatistics/staff/danielacastrocamilo/glenglasgow-edinburghextremesnetwork/" target="_blank">Glasgow–Edinburgh Extremes Network (GLE<span class="math inline">\(^2\)</span>N)</a> has provided leadership for a range of activities and events, including <a href="https://gail.ed.ac.uk/news-and-events/events/generative-ai-modelling-for-extreme-events-2025" target="_blank">GAME 2025</a>—the first workshop on Generative AI Modeling for Extreme Events. A related network is also active in Italy.</p>
-</div>
-</div>
 
 
 </main></div>
-
-
-
-
-
 
 
  <!-- /main -->
