@@ -80,7 +80,7 @@ Most datasets used in the Handbook are available through the R package
 install.packages("DATAstudio")
 library(DATAstudio)
 dataset("lisbon")
-?lisbon
+# type ?lisbon for details on the dataset
 ```
 <div style="text-align: center;">
 ![](images/datastudio.png){fig-align="center" width="20%"}
