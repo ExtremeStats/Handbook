@@ -30,7 +30,7 @@ with many of them highlighted in Chapter 2 of the Handbook authored by Anthony C
 <p><strong>Conferences</strong> 
 
 ::: {.justify}
-Many developments featured in this Handbook were first presented at the EVA Conference, a long-standing forum that brings together researchers and practitioners working on extreme value analysis. Since its inception, the EVA conference has played a central role in fostering collaboration and shaping the field. The EVA Conference traces its origins to the first meeting on *Statistical Extremes and Applications* (EVA 0), held in Vimeiro, Portugal, in 1983. 
+Many developments featured in this Handbook were first presented at the EVA Conference, a long-standing forum that brings together researchers and practitioners working on extreme value analysis. Since its inception, the EVA conference has played a central role in fostering collaboration and shaping the field. The EVA Conference traces its origins to the first meeting on *Statistical Extremes and Applications* (EVA 0), held in Vimeiro, Portugal, in 1983! 
 :::
 <div style="text-align: center;">
 ![](images/vimeiro.jpg){fig-align="center" width="60%"}

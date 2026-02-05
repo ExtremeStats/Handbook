@@ -93,7 +93,7 @@ dataset("lisbon")
 <div class="parts">
 
 <details close>
-<summary>Part I. Opening Remarks!</summary>
+<summary>Part I. Opening Remarks</summary>
 <ul class="chapters">
   <li>
     <span class="chapter-title">1. Handbook Outline</span><br>
