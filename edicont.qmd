@@ -5,6 +5,9 @@ subtitle: "Handbook of Statistics of Extremes"
 
 ![](images/cover.jpg){width="150px"}  
 
+#### Contact
+Would you like to email the Editors or Contributors about the Handbook? Click on the photos below.
+
 ## Editors
 
 ```{=html}
@@ -19,13 +22,28 @@ subtitle: "Handbook of Statistics of Extremes"
 
 <div class="contributors-list">
 
-<div class="contributor"><div class="contributor-text"><div class="name-box">Miguel de Carvalho</div><br>University of Edinburgh (SoM)<br>Universidade de Aveiro (DoM, CIDMA)<br>Edinburgh, UK; Aveiro, Portugal</div><img src="images/contributors/decarvalho.jpg" alt="Miguel de Carvalho"></div>
+<div class="contributor"><div class="contributor-text"><div class="name-box">Miguel de Carvalho</div><br>University of Edinburgh (SoM)<br>Universidade de Aveiro (DoM, CIDMA)<br>Edinburgh, UK; Aveiro, Portugal</div><a href="mailto:miguel.decarvalho@ed.ac.uk?subject=Handbook%20of%20Statistics%20of%20Extremes">
+<img src="images/contributors/decarvalho.jpg" alt="Miguel de Carvalho">
+</a>
+</div>
 
-<div class="contributor"><div class="contributor-text"><div class="name-box">Raphaël Huser</div><br>Statistics Program, CEMSE Division<br>King Abdullah University of Science and Technology (KAUST)<br>Thuwal, Saudi Arabia</div><img src="images/contributors/huser.jpg" alt="Raphaël Huser"></div>
+<div class="contributor"><div class="contributor-text"><div class="name-box">Raphaël Huser</div><br>Statistics Program, CEMSE Division<br>King Abdullah University of Science and Technology (KAUST)<br>Thuwal, Saudi Arabia</div>
+<a href="mailto:raphael.huser@kaust.edu.sa?subject=Handbook%20of%20Statistics%20of%20Extremes">
+<img src="images/contributors/huser.jpg" alt="Raphaël Huser">
+</a>
+</div>
 
-<div class="contributor"><div class="contributor-text"><div class="name-box">Philippe Naveau</div><br>Laboratoire des Sciences du Climat et de l’Environnement (CNRS)<br>Gif-sur-Yvette, France</div><img src="images/contributors/naveau.jpg" alt="Philippe Naveau"></div>
+<div class="contributor"><div class="contributor-text"><div class="name-box">Philippe Naveau</div><br>Laboratoire des Sciences du Climat et de l’Environnement (CNRS)<br>Gif-sur-Yvette, France</div>
+<a href="mailto:philippe.naveau@lsce.ipsl.fr?subject=Handbook%20of%20Statistics%20of%20Extremes">
+<img src="images/contributors/naveau.jpg" alt="Philippe Naveau">
+</a>
+</div>
 
-<div class="contributor"><div class="contributor-text"><div class="name-box">Brian J. Reich</div><br>Department of Statistics<br>North Carolina State University<br>Raleigh, NC USA</div><img src="images/contributors/reich.jpg" alt="Brian J. Reich"></div>
+<div class="contributor"><div class="contributor-text"><div class="name-box">Brian J. Reich</div><br>Department of Statistics<br>North Carolina State University<br>Raleigh, NC USA</div>
+<a href="mailto:bjreich@ncsu.edu?subject=Handbook%20of%20Statistics%20of%20Extremes">
+<img src="images/contributors/reich.jpg" alt="Brian J. Reich">
+</a>
+</div>
 
 </div>
 ```
