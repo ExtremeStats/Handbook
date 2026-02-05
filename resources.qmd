@@ -34,14 +34,14 @@ Many developments featured in this Handbook were first presented at the EVA Conf
 Courtesy of Feridun Turkman and Laurens de Haan.*
 </div>
 
-<a href="https://hecsciencesdecision.github.io/eva2027/">Join us at EVA 2027 in Montréal.</a>
+<a href="https://hecsciencesdecision.github.io/eva2027/" target = "_blank">Join us at EVA 2027 in Montréal.</a>
 </div>
 
 <div class="handbook-banner">
 <p><strong>_Extremes_</strong> 
 
 ::: {.justify}
-An indicator of the field’s vitality is the Springer journal <a href = "https://www.springer.com/journal/10687/">_Extremes_</a>, which regularly publishes novel methodological developments across all areas of extreme value statistics. While a range of other outlets feature work on the statistical modeling of extreme events, _Extremes_ is widely regarded as the leading journal within the extreme value theory community. Many of the central developments presented in the Handbook have been published in _Extremes_ or in other leading journals in the field.
+An indicator of the field’s vitality is the Springer journal <a href = "https://www.springer.com/journal/10687/" target = "_blank">_Extremes_</a>, which regularly publishes novel methodological developments across all areas of extreme value statistics. While a range of other outlets feature work on the statistical modeling of extreme events, _Extremes_ is widely regarded as the leading journal within the extreme value theory community. Many of the central developments presented in the Handbook have been published in _Extremes_ or in other leading journals in the field.
 :::
 </div>
 
@@ -53,7 +53,7 @@ This Handbook owes much to the publicly available software developed for extreme
 :::
 
 <div style="text-align: center;">
-<a href = "https://cran.r-project.org/web/views/ExtremeValue.html">https://cran.r-project.org/web/views/ExtremeValue.html</a>
+<a href = "https://cran.r-project.org/web/views/ExtremeValue.html" target = "_blank">https://cran.r-project.org/web/views/ExtremeValue.html</a>
 </div>
   
 ::: {.justify}
@@ -68,6 +68,6 @@ Several \textsf{R} packages are used throughout the book, including <code>evd</c
 The *One World Extremes* seminar series, supported by the Bernoulli Society, connects researchers in the field and features both theoretical developments and applied work in extreme value analysis.
 :::
 ::: {.text-center}
-<https://sites.google.com/view/ow-extremes/home>
+<a href = "https://sites.google.com/view/ow-extremes/home" target = "_blank">https://sites.google.com/view/ow-extremes/home</a>
 :::
 </div>
