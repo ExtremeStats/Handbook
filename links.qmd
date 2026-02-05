@@ -44,7 +44,7 @@ Courtesy of Feridun Turkman and Laurens de Haan.
 <p><strong>_Extremes_</strong> 
 
 ::: {.justify}
-An indicator of the field’s vitality is the Springer journal <a href = "https://www.springer.com/journal/10687/" target = "_blank">_Extremes_</a>, which regularly publishes novel methodological developments across all areas of extreme value statistics. While a range of other outlets feature work on the statistical modeling of extreme events, _Extremes_ is widely regarded as the leading journal within the extreme value theory community. Many of the central developments presented in the Handbook have been published in _Extremes_ or in other leading journals in the field!<br>
+An indicator of the field’s vitality is the Springer journal <a href = "https://www.springer.com/journal/10687/" target = "_blank">_Extremes_</a>, which regularly publishes novel methodological developments across all areas of extreme value statistics. While a range of other outlets feature work on the statistical modeling of extreme events, _Extremes_ is widely regarded as the leading journal within the extreme value theory community. Many of the central developments presented in the Handbook have been published in _Extremes_ or in other leading journals in the field<br>
 :::
 <div style="text-align: center;">
 ![](images/extremes.jpg){fig-align="center" width="150px"}<br>
