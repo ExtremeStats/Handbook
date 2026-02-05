@@ -71,7 +71,7 @@ border: none;
 <p><strong>Loading & Downloading Data</strong>
 
 ::: {.justify}
-Most datasets used in the Handbook are available through the R package
+!!Most datasets used in the Handbook are available through the R package
 <code>DATAstudio</code>. Datasets can be downloaded with the <code>DATAstudio</code> command
 <code>dataset()</code>. For instance:
 :::
