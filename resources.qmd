@@ -35,8 +35,8 @@ Many developments featured in this Handbook were first presented at the EVA Conf
 <div style="text-align: center;">
 ![](images/vimeiro.jpg){fig-align="center" width="60%"}
 <br>
-*EVA 0 — Statistical Extremes and Applications, Vimeiro, Portugal (1983).  
-Courtesy of Feridun Turkman and Laurens de Haan.*
+EVA 0 — Statistical Extremes and Applications, Vimeiro, Portugal (1983).  
+Courtesy of Feridun Turkman and Laurens de Haan.
 </div>
 
 <a href="https://hecsciencesdecision.github.io/eva2027/" target = "_blank" rel="noopener">Join us at EVA 2027 in Montréal!</a>
