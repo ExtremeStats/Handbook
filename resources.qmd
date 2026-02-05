@@ -53,7 +53,6 @@ An indicator of the field’s vitality is the Springer journal <a href = "https:
 
 ![](images/springer.png){fig-align="center" width="20%"}
 </div>
-
 </div>
 
 <div class="handbook-banner">
@@ -95,9 +94,7 @@ The *One World Extremes* seminar series, supported by the Bernoulli Society, con
 
 ::: {.justify}
 The *One World Extremes* seminar series, supported by the Bernoulli Society, connects researchers in the field and features both theoretical developments and applied work in extreme value analysis. For more information and to subscribe, email 
-<a href="mailto:e.v.analysis.news@gmail.com?subject=Subscribe%20EVA%20Newsletter">
-e.v.analysis.news@gmail.com
-</a>
+<a href="mailto:e.v.analysis.news@gmail.com?subject=Subscribe%20EVA%20Newsletter">e.v.analysis.news@gmail.com</a>
 :::
 </div>
 
