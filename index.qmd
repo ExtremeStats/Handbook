@@ -9,6 +9,13 @@ engine: knitr
 .justify {
   text-align: justify !important
 }
+
+.book-rule {
+  border: none;
+  border-top: 1px solid #bbb;
+  width: 35%;
+  margin: 2.5em auto;
+}
 ```
 
 ![](images/cover.jpg){width="150px"}
@@ -49,7 +56,8 @@ expected to be released in mid-2026.
 → Pre-order your copy
 </a><br><br>
 -->
-<div class="handbook-banner">
+<hr class="book-rule">
+<div style="text-align: center;">
 <p><strong>Pre-order your copy</strong> <br>
 ```{=html}
 <a href="https://www.amazon.com/Handbook-Statistics-Extremes-Handbooks-Statistical/dp/1032519800" style="margin-left: 5px;margin-right: 225px"><img src="images/amazon.svg" width="75px" alt="Pre-order on Amazon"></a>
@@ -60,5 +68,4 @@ expected to be released in mid-2026.
 ```
 </p>
 </div> 
-
 

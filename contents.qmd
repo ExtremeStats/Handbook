@@ -1,5 +1,5 @@
 ---
-title: "Chapters"
+title: "Overview"
 subtitle: "Handbook of Statistics of Extremes" 
 engine: knitr
 ---
@@ -422,9 +422,16 @@ extremes is still possible even when some information is missing._
 </p>
 :::
 </div>
+<hr class="book-rule">
+<div style="text-align: center;">
+<p><strong>Pre-order your copy</strong> <br>
+```{=html}
+<a href="https://www.amazon.com/Handbook-Statistics-Extremes-Handbooks-Statistical/dp/1032519800" style="margin-left: 5px;margin-right: 225px"><img src="images/amazon.svg" width="75px" alt="Pre-order on Amazon"></a>
 
+<a href="https://www.barnesandnoble.com/w/handbook-of-statistics-of-extremes-miguel-de-carvalho/1148829252" style="margin-left: 5px;margin-right: 225px"><img src="images/barnes.png" width="100px" alt="Pre-order on Barnes & Noble"></a>
 
-
-
-
+<a href="https://www.waterstones.com/book/handbook-of-statistics-of-extremes/miguel-de-carvalho/rapha-l-huser/9781032519807"><img src="images/waterstones.png" width="100px" alt="Pre-order on Waterstones" style="margin-left: -3px"></a>
+```
+</p>
+</div> 
 

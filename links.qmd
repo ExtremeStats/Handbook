@@ -1,13 +1,31 @@
 ---
 title: "Further Resources"
 subtitle: "Handbook of Statistics of Extremes" 
-format: html
+format:
+  html:
+    self-contained: false
+resources:
+  - videos/hec.mp4
 engine: knitr
 ---
 
 ```{css, echo = FALSE}
 .justify {
   text-align: justify !important
+}
+.book-rule {
+  border: none;
+  border-top: 1px solid #bbb;
+  width: 35%;
+  margin: 2.5em auto;
+}
+
+.chap-title {
+  float: left;
+}
+
+.chap-authors {
+  float: right;
 }
 ```
 
@@ -34,7 +52,17 @@ EVA 0 — Statistical Extremes and Applications, Vimeiro, Portugal (1983).
 Courtesy of Feridun Turkman and Laurens de Haan.
 </div>
 
-<a href="https://hecsciencesdecision.github.io/eva2027/" target = "_blank">Join us at EVA 2027 in Montréal.</a>
+<a href="https://hecsciencesdecision.github.io/eva2027/" target = "_blank">Join us at EVA 2027 in Montréal.</a><br>
+
+### <span class="chap-title">**EVA 2027**</span><span class="chap-authors">5-9 July</span>
+##### <span class="chap-title"></span><span class="chap-authors">Montreal, Quebec, Canada</span> 
+<div style="text-align: center;">
+![](images/hec.png){fig-align="center" width="30%"}
+<!-- ![](images/hec.jpg){fig-align="center" width="63%"} -->
+<video controls autoplay muted playsinline loop style="display:block; margin: 0 auto; width:63.5%;">
+  <source src="videos/hec.mp4" type="video/mp4">
+</video>
+</div>
 </div>
 
 ## Extremes
@@ -100,3 +128,17 @@ Other meetings, such as EVAN (International Conference on Advances in Extreme Va
 Glasgow--Edinburgh Extremes Network (GLE$^2$N)</a> has provided leadership for a range of activities and events, including <a href = "https://gail.ed.ac.uk/news-and-events/events/generative-ai-modelling-for-extreme-events-2025" target = "_blank">GAME 2025</a>---the first workshop on Generative AI Modeling for Extreme Events. A related network is also active in Italy.
 :::
 </div>
+
+<hr class="book-rule">
+<div style="text-align: center;">
+<p><strong>Pre-order your copy</strong> <br>
+```{=html}
+<a href="https://www.amazon.com/Handbook-Statistics-Extremes-Handbooks-Statistical/dp/1032519800" style="margin-left: 5px;margin-right: 225px"><img src="images/amazon.svg" width="75px" alt="Pre-order on Amazon"></a>
+
+<a href="https://www.barnesandnoble.com/w/handbook-of-statistics-of-extremes-miguel-de-carvalho/1148829252" style="margin-left: 5px;margin-right: 225px"><img src="images/barnes.png" width="100px" alt="Pre-order on Barnes & Noble"></a>
+
+<a href="https://www.waterstones.com/book/handbook-of-statistics-of-extremes/miguel-de-carvalho/rapha-l-huser/9781032519807"><img src="images/waterstones.png" width="100px" alt="Pre-order on Waterstones" style="margin-left: -3px"></a>
+```
+</p>
+</div> 
+

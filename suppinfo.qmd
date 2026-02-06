@@ -1,6 +1,7 @@
 ---
 title: "Supporting Information"
 subtitle: "Handbook of Statistics of Extremes" 
+engine: knitr
 ---
 
 ![](images/cover.jpg){width="150px"}  
@@ -13,7 +14,8 @@ This page is currently under construction. More materials will be added here ove
 :::
 </div>
 
-<div class="handbook-banner">
+<hr class="book-rule">
+<div style="text-align: center;">
 <p><strong>Pre-order your copy</strong> <br>
 ```{=html}
 <a href="https://www.amazon.com/Handbook-Statistics-Extremes-Handbooks-Statistical/dp/1032519800" style="margin-left: 5px;margin-right: 225px"><img src="images/amazon.svg" width="75px" alt="Pre-order on Amazon"></a>
@@ -24,5 +26,4 @@ This page is currently under construction. More materials will be added here ove
 ```
 </p>
 </div> 
-
 
