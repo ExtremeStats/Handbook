@@ -28,7 +28,7 @@ engine: knitr
 
 ![](images/cover.jpg){width="150px"}  
 
-#### Contents
+## Contents
 ::: {.justify}
 Each chapter opens with a short, informal blurb offering a high-level overview of what follows—what we call an _Outline_. To give a flavour of the Handbook, these Outlines are reproduced below.
 :::
@@ -38,6 +38,8 @@ Each chapter opens with a short, informal blurb offering a high-level overview o
         height="800px"
         style="border: none;">
 </iframe>
+
+## Outlines
 <hr class="book-rule">
 ##### <span class="chap-title">**Chapter 1**</span><span class="chap-authors">M. de Carvalho, R. Huser, P. Naveau & B. J. Reich</span>
 <div class="handbook-banner">
@@ -371,7 +373,7 @@ particular attention to extreme landslides, which are the most devastating ones.
 :::
 </div>
 <hr class="book-rule">
-#### <span class="chap-title">**Chapter 28**</span><span class="chap-authors">A. Kiriliouk & C. Zhou</span>
+##### <span class="chap-title">**Chapter 28**</span><span class="chap-authors">A. Kiriliouk & C. Zhou</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong> 
@@ -385,7 +387,7 @@ analysis._
 :::
 </div>
 <hr class="book-rule">
-#### <span class="chap-title">**Chapter 29**</span><span class="chap-authors">H. Albrecher & J. Beirlant</span>
+##### <span class="chap-title">**Chapter 29**</span><span class="chap-authors">H. Albrecher & J. Beirlant</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong> 
@@ -396,7 +398,7 @@ these methods support risk management and pricing, especially in reinsurance._
 :::
 </div>
 <hr class="book-rule">
-#### <span class="chap-title">**Chapter 30**</span><span class="chap-authors">P. V. Redondo, M. B. Guerrero, R. Huser & H. Ombao</span>
+##### <span class="chap-title">**Chapter 30**</span><span class="chap-authors">P. V. Redondo, M. B. Guerrero, R. Huser & H. Ombao</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong> 
@@ -409,7 +411,7 @@ abnormalities such as epileptic seizures._
 :::
 </div>
 <hr class="book-rule">
-#### <span class="chap-title">**Chapter 31**</span><span class="chap-authors">L. R. Belzile & J. G. Nešlehová</span>
+##### <span class="chap-title">**Chapter 31**</span><span class="chap-authors">L. R. Belzile & J. G. Nešlehová</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong> 

@@ -5,7 +5,7 @@ subtitle: "Handbook of Statistics of Extremes"
 
 ![](images/cover.jpg){width="150px"}  
 
-#### Contact
+## Contacts
 Questions about a chapter? You can reach out to the Editors or Contributors by clicking on the photos below.
 
 ## Editors

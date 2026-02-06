@@ -67,9 +67,8 @@ border: none;
 
 ![](images/cover.jpg){width="150px"}  
 
+## Loading & Downloading Data
 <div class="handbook-banner">
-<p><strong>Loading & Downloading Data</strong>
-
 ::: {.justify}
 Most datasets used in the Handbook are available through the R package
 <code>DATAstudio</code>. Datasets can be downloaded with the <code>DATAstudio</code> command
@@ -85,9 +84,10 @@ dataset("lisbon")
 <div style="text-align: center;">
 ![](images/datastudio.png){fig-align="center" width="20%"}
 </div>
-<p> To cite <code>DATAstudio</code> in publications, here is the <a href="library.bib" download>BibTeX entry</a>. 
+To cite <code>DATAstudio</code> in publications, here is the <a href="library.bib" download>BibTeX entry</a>. 
 </div>
 
+## Datasets
 <div class="parts">
 
 <div class="parts">

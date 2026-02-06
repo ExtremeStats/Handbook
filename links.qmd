@@ -13,20 +13,17 @@ engine: knitr
 
 ![](images/cover.jpg){width="150px"}  
 
+## Further Books
 <div class="handbook-banner">
-<p><strong>Further Books</strong> 
-
-::: {.justify}
-Several other excellent references are discussed throughout the book, with many of them highlighted in the opening Chapter 2 of the Handbook authored by Anthony C. Davison and Ophélia Miralles.<br><br>
+<p>
+Several other excellent references are discussed throughout the book, with many of them highlighted in the opening Chapter 2 of the Handbook authored by Anthony C. Davison and Ophélia Miralles.</p><br><br>
 <div style="text-align: center;">
 ![](images/chap2.png){fig-align="center" width="60%"}
 </div>
-:::
 </div>
 
+## EVA Conference
 <div class="handbook-banner">
-<p><strong>EVA Conference</strong> 
-
 ::: {.justify}
 Many developments featured in this Handbook were first presented at the EVA Conference, a long-standing forum that brings together researchers and practitioners working on Extreme Value Analysis. Since its inception, the EVA conference has played a central role in fostering collaboration and shaping the field. The EVA Conference traces its origins to the first meeting on *Statistical Extremes and Applications* (EVA 0), held in Vimeiro, Portugal, in 1983. 
 :::
@@ -40,9 +37,8 @@ Courtesy of Feridun Turkman and Laurens de Haan.
 <a href="https://hecsciencesdecision.github.io/eva2027/" target = "_blank">Join us at EVA 2027 in Montréal.</a>
 </div>
 
+## Extremes
 <div class="handbook-banner">
-<p><strong>_Extremes_</strong> 
-
 ::: {.justify}
 An indicator of the field’s vitality is the Springer journal <a href = "https://www.springer.com/journal/10687/" target = "_blank">_Extremes_</a>, which regularly publishes novel methodological developments across all areas of extreme value statistics. While a range of other outlets feature work on the statistical modeling of extreme events, _Extremes_ is widely regarded as the leading journal within the extreme value theory community. Many of the central developments presented in the Handbook have been published in _Extremes_ or in other leading journals in the field<br>
 :::
@@ -52,8 +48,8 @@ An indicator of the field’s vitality is the Springer journal <a href = "https:
 </div>
 </div>
 
+## Software
 <div class="handbook-banner">
-<p><strong>Software</strong> 
 
 ::: {.justify}
 This Handbook owes much to the publicly available software developed for extreme value analysis. A curated list of \textsf{R} packages for statistics of extremes is available at
@@ -71,8 +67,8 @@ Several \textsf{R} packages are used throughout the book, including <code>evd</c
 :::
 </div>
 
+## Seminars
 <div class="handbook-banner">
-<p><strong>Seminars</strong> 
 
 ::: {.justify}
 The *One World Extremes* seminar series, supported by the Bernoulli Society, connects researchers in the field and features both theoretical developments and applied work in extreme value analysis.
@@ -87,25 +83,20 @@ The *One World Extremes* seminar series, supported by the Bernoulli Society, con
 </div>
 </div>
 
+## EVA Newsletter
 <div class="handbook-banner">
-<p><strong>EVA Newsletter</strong> 
-
 ::: {.justify}
-
 The newsletter provides a convenient way to advertise opportunities relevant to the worldwide Extreme Value Analysis community, and to allow its members to easily keep abreast of some of the most recent developments. For more information and to subscribe, email 
 <a href="mailto:e.v.analysis.news@gmail.com?subject=Subscribe%20EVA%20Newsletter">e.v.analysis.news@gmail.com</a>
-
 :::
 </div>
 
+## Miscellanea
 <div class="handbook-banner">
-<p><strong>Miscellaneous</strong> 
-
+<p>
 ::: {.justify}
-
 Other meetings, such as EVAN (International Conference on Advances in Extreme Value Analysis), also provide valuable forums for discussion. Several networks devoted to extreme value theory are active; for example, in Scotland, the 
 <a href = "https://www.gla.ac.uk/schools/mathematicsstatistics/staff/danielacastrocamilo/glenglasgow-edinburghextremesnetwork/" target = "_blank">
 Glasgow--Edinburgh Extremes Network (GLE$^2$N)</a> has provided leadership for a range of activities and events, including <a href = "https://gail.ed.ac.uk/news-and-events/events/generative-ai-modelling-for-extreme-events-2025" target = "_blank">GAME 2025</a>---the first workshop on Generative AI Modeling for Extreme Events. A related network is also active in Italy.
-
 :::
 </div>
