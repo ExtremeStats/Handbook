@@ -140,7 +140,7 @@ Questions about a chapter? You can reach out to the Editors or Contributors by c
 </a>
 </div>
 
-<div class="contributor"><div class="contributor-text"><div class="name-box">Lambert de Monte</div><br>School of Mathematics<br>University of Edinburgh<br>Edinburgh, UK</div>
+<div class="contributor"><div class="contributor-text"><div class="name-box">Lambert De Monte</div><br>School of Mathematics<br>University of Edinburgh<br>Edinburgh, UK</div>
 <a href="mailto:l.demonte@ed.ac.uk?subject=Handbook%20of%20Statistics%20of%20Extremes">
 <img src="images/contributors/demonte.jpg" alt="Lambert de Monte">
 </a>
