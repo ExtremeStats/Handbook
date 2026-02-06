@@ -1,13 +1,422 @@
 ---
 title: "Chapters"
 subtitle: "Handbook of Statistics of Extremes" 
+engine: knitr
 ---
 
+```{css, echo = FALSE}
+.justify {
+  text-align: justify !important
+}
+
+.book-rule {
+  border: none;
+  border-top: 1px solid #bbb;
+  width: 35%;
+  margin: 2.5em auto;
+}
+```
 
 ![](images/cover.jpg){width="150px"}  
+
+#### Contents
+::: {.justify}
+Each chapter opens with a short, informal blurb offering a high-level overview of what follows—what we call an _Outline_. To give a flavour of the Handbook, these Outlines are reproduced below.
+:::
 
 <iframe src="images/chapters.pdf"
         width="100%"
         height="800px"
         style="border: none;">
 </iframe>
+
+##### Chapter 2
+<div class="handbook-banner">
+::: {.justify}
+<p><strong>Outline:</strong> 
+_This chapter provides a brief overview of extreme value theory, previewing key concepts from later chapters, introduces fundamental models for
+analyzing extremes, and discusses their application in risk assessment._
+</p>
+:::
+</div>
+<hr class="book-rule">
+##### Chapter 3
+<div class="handbook-banner">
+::: {.justify}
+<p><strong>Outline:</strong> 
+_This chapter continues the discussion from the previous chapter and
+provides an introductory treatment of how to learn about extreme value 
+distributions from data. It also sets the stage for the next chapter on Bayesian inference
+for extremes._
+</p>
+:::
+</div>
+<hr class="book-rule">
+##### Chapter 4
+<div class="handbook-banner">
+::: {.justify}
+<p><strong>Outline:</strong> 
+_This chapter continues the discussion on learning extreme value distributions 
+from data, building on the previous chapter by introducing the Bayesian
+approach to statistical inference. It highlights how Bayesian methods incorporate
+prior knowledge, improve inference through hierarchical modeling, and apply to
+extreme value analysis._
+</p>
+:::
+</div>
+<hr class="book-rule">
+##### Chapter 5
+<div class="handbook-banner">
+::: {.justify}
+<p><strong>Outline:</strong> 
+_This chapter explores statistical methods for modeling both extreme
+values and the entire distribution of a variable. By integrating extreme value
+theory with broader distributional modeling, it highlights how these approaches
+can bypass threshold selection and clarify the role of explanatory variables in
+shaping both high and low extremes._
+</p>
+:::
+</div>
+<hr class="book-rule">
+##### Chapter 6
+<div class="handbook-banner">
+::: {.justify}
+<p><strong>Outline:</strong> 
+_This chapter introduces regression models for extreme events, which
+track how the risk of extremes shifts with covariates like time or temperature. The
+core idea is to link covariates to the parameters of extreme value distributions
+and learn those links directly from data._
+</p>
+:::
+</div>
+<hr class="book-rule">
+##### Chapter 6
+<div class="handbook-banner">
+::: {.justify}
+<p><strong>Outline:</strong> 
+_This chapter introduces regression models for extreme events, which
+track how the risk of extremes shifts with covariates like time or temperature. The
+core idea is to link covariates to the parameters of extreme value distributions
+and learn those links directly from data._
+</p>
+:::
+</div>
+<hr class="book-rule">
+##### Chapter 7
+<div class="handbook-banner">
+::: {.justify}
+<p><strong>Outline:</strong> 
+_Extreme events, whether in geosciences, finance, or other fields, are
+inherently multivariate as they arise from the interplay of multiple factors. This
+chapter introduces the foundational models for multivariate extremes, including 
+multivariate generalized Pareto distributions and multivariate extreme value
+distributions._
+</p>
+:::
+</div>
+<hr class="book-rule">
+##### Chapter 8
+<div class="handbook-banner">
+::: {.justify}
+<p><strong>Outline:</strong> 
+_This chapter explores how to quantify the interplay between extreme
+events across multiple variables, such as simultaneous extreme financial losses.
+While the previous chapter focused on introducing key models for multivariate
+extremes, here the focus will be placed on evaluating extremal dependence._
+</p>
+:::
+</div>
+<hr class="book-rule">
+##### Chapter 9
+<div class="handbook-banner">
+::: {.justify}
+<p><strong>Outline:</strong> 
+_This chapter introduces regression models for extreme events occurring
+in pairs, such as financial crashes affecting multiple stock markets. It explores
+how the strength of dependence between extreme values changes over time or
+along with another covariate._
+</p>
+:::
+</div>
+<hr class="book-rule">
+##### Chapter 10
+<div class="handbook-banner">
+::: {.justify}
+<p><strong>Outline:</strong>
+_A key advantage of the methods covered below is their ability to capture both asymptotic dependence and asymptotic independence, offering greater
+flexibility than many traditional approaches. A dataset comprising two compo-
+nents of air pollution in the UK is used to illustrate the bivariate conditional
+extremes model, while the spatial conditional extremes model is applied to gridded
+temperature data across the Netherlands._
+</p>
+:::
+</div>
+<hr class="book-rule">
+##### Chapter 11
+<div class="handbook-banner">
+::: {.justify}
+<p><strong>Outline:</strong> 
+_While previous chapters focused on modeling multivariate extremes,
+we now turn to dimension reduction methods. This chapter explores ways to
+reduce the dimensionality of the data while preserving key information relevant
+to the analysis of multivariate extreme values._
+</p>
+:::
+</div>
+<hr class="book-rule">
+##### Chapter 12
+<div class="handbook-banner">
+::: {.justify}
+<p><strong>Outline:</strong> 
+_We now move from the task of dimension reduction to the task of
+clustering. As with dimension reduction, clustering for multivariate extremes is
+a relatively recent addition to the statistical toolbox, and this chapter introduces
+three available approaches._
+</p>
+:::
+</div>
+<hr class="book-rule">
+##### Chapter 13
+<div class="handbook-banner">
+::: {.justify}
+<p><strong>Outline:</strong> 
+_Graphical models for extremes reveal relationships between extreme
+events in complex, interconnected systems. This chapter introduces key concepts,
+recent advances, and demonstrates their application to analyzing flight delays at
+US airports._
+</p>
+:::
+</div>
+<hr class="book-rule">
+##### Chapter 14
+<div class="handbook-banner">
+::: {.justify}
+<p><strong>Outline:</strong> 
+_This chapter introduces statistical methods for modeling extreme events
+in time series data. It covers both classical results and modern approaches that
+capture the tendency of extremes to cluster over short time scales, and discusses
+recent developments based on the conditional extremes framework detailed in
+Chapter 10; a case study on persistent high temperatures in Talavera la Real,
+Spain, illustrates the methods._
+</p>
+:::
+</div>
+<hr class="book-rule">
+##### Chapter 15
+<div class="handbook-banner">
+::: {.justify}
+<p><strong>Outline:</strong> 
+_Extreme events often unfold across space, not just time. This chapter
+introduces max-stable processes, which extend the generalized extreme value 
+distribution to describe spatial extremes, capturing both how extreme events vary
+across different locations and how they are related._
+</p>
+:::
+</div>
+<hr class="book-rule">
+##### Chapter 16
+<div class="handbook-banner">
+::: {.justify}
+<p><strong>Outline:</strong> 
+_The previous chapter introduced the GEV model for spatial extremes;
+here, we turn to Pareto processes for modeling threshold exceedances. While
+exceedances are easy to define in a single location, the challenge now is figuring
+out what ‘exceeding a threshold’ means across space._
+</p>
+:::
+</div>
+<hr class="book-rule">
+##### Chapter 17
+<div class="handbook-banner">
+::: {.justify}
+<p><strong>Outline:</strong> 
+_Whereas the previous two chapters focused on spatial extreme mod-
+els derived from asymptotic arguments, we now shift the paradigm by introducing 
+subasymptotic models. These models aim to enhance inference by capturing
+dependence at intermediate to extreme quantiles, rather than relying solely on
+theoretical limits._
+</p>
+:::
+</div>
+<hr class="book-rule">
+##### Chapter 18
+<div class="handbook-banner">
+::: {.justify}
+<p><strong>Outline:</strong> 
+_While previous chapters focused on modeling extreme events in space,
+this chapter extends these ideas, concepts and methods to capture both spatial
+and temporal characteristics. As shown below, modeling space-time dynamics of
+extremes requires more than simply adding a time dimension to spatial models._
+</p>
+:::
+</div>
+<hr class="book-rule">
+##### Chapter 19
+<div class="handbook-banner">
+::: {.justify}
+<p><strong>Outline:</strong> 
+_Understanding cause-and-effect relationships in extreme events is cru-
+cial across many applied fields. This chapter introduces key causal models,
+explores methods for learning causal structures, and demonstrates their application
+using real data from the Seine River network._
+</p>
+:::
+</div>
+<hr class="book-rule">
+##### Chapter 20
+<div class="handbook-banner">
+::: {.justify}
+<p><strong>Outline:</strong> 
+_This chapter explores AI in the context of extreme events, with a focus
+on generative models. It highlights the limitations of mainstream AI approaches
+in simulating heavy-tailed phenomena and presents fresh solutions._
+</p>
+:::
+</div>
+<hr class="book-rule">
+##### Chapter 21
+<div class="handbook-banner">
+::: {.justify}
+<p><strong>Outline:</strong> 
+_A further exploration of AI and extremes. While Chapter 20 show-cased 
+how recent neural approaches can be used as generative models for extreme
+events, this chapter focuses on novel neural methods for modeling extremes and
+extrapolating beyond observed data._
+</p>
+:::
+</div>
+<hr class="book-rule">
+##### Chapter 22
+<div class="handbook-banner">
+::: {.justify}
+<p><strong>Outline:</strong> 
+_Quantiles are the foundation of most risk management methods, but
+they only account for how often extreme events occur, not how severe they are.
+This chapter explores novel alternative risk measures that address this limitation,
+discussing their strengths, mathematical challenges, and real-world applications
+in finance and natural disasters._
+</p>
+:::
+</div>
+<hr class="book-rule">
+##### Chapter 23
+<div class="handbook-banner">
+::: {.justify}
+<p><strong>Outline:</strong> 
+_Detection and attribution is about understanding how much of the ob-
+served changes in climate—such as rising temperatures or stronger storms—can
+be traced to human activities rather than natural variations. This chapter reviews
+the topic from a statistical perspective, with a particular focus on detection and
+attribution of extreme weather events._
+</p>
+:::
+</div>
+<hr class="book-rule">
+##### Chapter 24
+<div class="handbook-banner">
+::: {.justify}
+<p><strong>Outline:</strong> 
+_This chapter provides an overview of evaluation methods for extreme
+forecasts and projections, where predictive models are compared to available data.
+The methods we discuss are based on decision-theoretic principles and the prin-
+ciple of maximizing the information value in the prediction subject to a calibrated
+risk assessment._
+</p>
+:::
+</div>
+<hr class="book-rule">
+##### Chapter 25
+<div class="handbook-banner">
+::: {.justify}
+<p><strong>Outline:</strong> 
+_Rainfall is a highly variable and complex phenomenon, making its sta-
+tistical modeling challenging, especially when capturing both typical and extreme
+events across space and time. This chapter explores the difficulties of modeling
+rainfall extremes, the role of dependence structures, and how combining extreme
+value theory and physical hydrometeorological knowledge can improve 
+predictions, particularly for flood risk assessment._
+</p>
+:::
+</div>
+<hr class="book-rule">
+##### Chapter 26
+<div class="handbook-banner">
+::: {.justify}
+<p><strong>Outline:</strong> 
+_Statistics of extremes is beginning to play a key role in wildfire science
+by improving predictions of rare and severe wildfire events. This chapter explores
+how extreme value theory can be extended to study spatial and temporal wildfire
+dependence, integrate with physical fire spread models, and address emerging
+challenges in fire risk assessment under climate change._
+</p>
+:::
+</div>
+<hr class="book-rule">
+##### Chapter 27
+<div class="handbook-banner">
+::: {.justify}
+<p><strong>Outline:</strong> 
+_In this chapter, we illustrate the use of split bulk–tail models and
+subasymptotic models motivated by extreme value theory in the context of
+hazard assessment for earthquake-induced landslides. A spatial joint areal model
+is presented for modeling both landslides counts and landslide sizes, paying
+particular attention to extreme landslides, which are the most devastating ones._
+</p>
+:::
+</div>
+<hr class="book-rule">
+##### Chapter 28
+<div class="handbook-banner">
+::: {.justify}
+<p><strong>Outline:</strong> 
+_This chapter explores how extreme value statistics can improve finan-
+cial risk assessment by estimating extreme losses, with a focus on challenges
+posed by serial dependence in financial data. It compares two key approaches—
+unconditional and conditional quantile estimation—and examines their implica-
+tions for capital requirements, risk monitoring, and multivariate systemic risk
+analysis._
+</p>
+:::
+</div>
+<hr class="book-rule">
+##### Chapter 29
+<div class="handbook-banner">
+::: {.justify}
+<p><strong>Outline:</strong> 
+_Insurance risk is driven by rare but extreme losses, making extreme
+value statistics a vital tool for modeling large claims. This chapter explores how
+these methods support risk management and pricing, especially in reinsurance._
+</p>
+:::
+</div>
+<hr class="book-rule">
+##### Chapter 30
+<div class="handbook-banner">
+::: {.justify}
+<p><strong>Outline:</strong> 
+_Brain activity is often analyzed through averages and central trends,
+but extreme events—like sudden surges in electrical signals—may hold key 
+insights into neurological conditions. This chapter explores how extreme value 
+theory can be applied to brain signal data, particularly EEG, to better understand
+abnormalities such as epileptic seizures._
+</p>
+:::
+</div>
+<hr class="book-rule">
+##### Chapter 31
+<div class="handbook-banner">
+::: {.justify}
+<p><strong>Outline:</strong> 
+_This chapter presents two examples of extreme value analysis using
+incomplete data. The first examines very long human lifetimes, and the second 
+looks at large insurance claims—both showing that meaningful analysis of
+extremes is still possible even when some information is missing._
+</p>
+:::
+</div>
+
+
+
+
+
+
