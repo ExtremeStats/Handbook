@@ -15,6 +15,15 @@ engine: knitr
   width: 35%;
   margin: 2.5em auto;
 }
+
+.chap-title {
+  float: left;
+}
+
+.chap-authors {
+  float: right;
+  font-style: italic;
+}
 ```
 
 ![](images/cover.jpg){width="150px"}  
@@ -29,8 +38,17 @@ Each chapter opens with a short, informal blurb offering a high-level overview o
         height="800px"
         style="border: none;">
 </iframe>
-
-##### Chapter 2
+<hr class="book-rule">
+##### <span class="chap-title">Chapter 1</span><span class="chap-authors">M. de Carvalho, R. Huser, P. Naveau & B. J. Reich</span>
+<div class="handbook-banner">
+::: {.justify}
+<p><strong>Outline:</strong> 
+_This opening chapter sets the stage for the Handbook. It explains why statistical models for extremes are essential, introduces the structure of the volume, and provides a concise historical perspective on the field, together with guidance to further resources._
+</p>
+:::
+</div>
+<hr class="book-rule">
+##### <span class="chap-title">Chapter 2</span><span class="chap-authors">A. C. Davison & O. Miralles</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong> 
@@ -40,7 +58,7 @@ analyzing extremes, and discusses their application in risk assessment._
 :::
 </div>
 <hr class="book-rule">
-##### Chapter 3
+##### <span class="chap-title">Chapter 3</span><span class="chap-authors">M. de Carvalho & V. Carcaiso</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong> 
@@ -52,7 +70,7 @@ for extremes._
 :::
 </div>
 <hr class="book-rule">
-##### Chapter 4
+##### <span class="chap-title">Chapter 4</span><span class="chap-authors">R. Majumder, B. A. Shaby & B. J. Reich</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong> 
@@ -65,7 +83,7 @@ extreme value analysis._
 :::
 </div>
 <hr class="book-rule">
-##### Chapter 5
+##### <span class="chap-title">Chapter 5</span><span class="chap-authors">P. Naveau</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong> 
@@ -78,7 +96,7 @@ shaping both high and low extremes._
 :::
 </div>
 <hr class="book-rule">
-##### Chapter 6
+##### <span class="chap-title">Chapter 6</span><span class="chap-authors">M. de Carvalho, V. Palacios, L. Henriques-Rodrigues & M. W. Lee</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong> 
@@ -90,19 +108,7 @@ and learn those links directly from data._
 :::
 </div>
 <hr class="book-rule">
-##### Chapter 6
-<div class="handbook-banner">
-::: {.justify}
-<p><strong>Outline:</strong> 
-_This chapter introduces regression models for extreme events, which
-track how the risk of extremes shifts with covariates like time or temperature. The
-core idea is to link covariates to the parameters of extreme value distributions
-and learn those links directly from data._
-</p>
-:::
-</div>
-<hr class="book-rule">
-##### Chapter 7
+##### <span class="chap-title">Chapter 7</span><span class="chap-authors">P. Naveau & J. Segers</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong> 
@@ -115,7 +121,7 @@ distributions._
 :::
 </div>
 <hr class="book-rule">
-##### Chapter 8
+##### <span class="chap-title">Chapter 8</span><span class="chap-authors">David L. Carl, S. A. Padoan & S. Rizzelli</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong> 
@@ -127,7 +133,7 @@ extremes, here the focus will be placed on evaluating extremal dependence._
 :::
 </div>
 <hr class="book-rule">
-##### Chapter 9
+##### <span class="chap-title">Chapter 9</span><span class="chap-authors">M. de Carvalho & D. Castro-Camilo</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong> 
@@ -139,7 +145,7 @@ along with another covariate._
 :::
 </div>
 <hr class="book-rule">
-##### Chapter 10
+##### <span class="chap-title">Chapter 10</span><span class="chap-authors">E. S. Simpson & J. L. Wadsworth</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong>
@@ -152,7 +158,7 @@ temperature data across the Netherlands._
 :::
 </div>
 <hr class="book-rule">
-##### Chapter 11
+##### <span class="chap-title">Chapter 11</span><span class="chap-authors">D. Cooley, A. Sabourin & T. Wixson</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong> 
@@ -164,7 +170,7 @@ to the analysis of multivariate extreme values._
 :::
 </div>
 <hr class="book-rule">
-##### Chapter 12
+##### <span class="chap-title">Chapter 12</span><span class="chap-authors">Phyllis Wan & Anja Janßen</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong> 
@@ -176,7 +182,7 @@ three available approaches._
 :::
 </div>
 <hr class="book-rule">
-##### Chapter 13
+##### <span class="chap-title">Chapter 13</span><span class="chap-authors">S. Engelke, M. Hentschel, M. Lalancette & Frank Röttger</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong> 
@@ -188,7 +194,7 @@ US airports._
 :::
 </div>
 <hr class="book-rule">
-##### Chapter 14
+##### <span class="chap-title">Chapter 14</span><span class="chap-authors">S. Engelke, M. Hentschel, M. Lalancette & Frank Röttger</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong> 
@@ -202,7 +208,7 @@ Spain, illustrates the methods._
 :::
 </div>
 <hr class="book-rule">
-##### Chapter 15
+##### <span class="chap-title">Chapter 15</span><span class="chap-authors">K. Strokorb & M. Oesting</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong> 
@@ -214,7 +220,7 @@ across different locations and how they are related._
 :::
 </div>
 <hr class="book-rule">
-##### Chapter 16
+##### <span class="chap-title">Chapter 16</span><span class="chap-authors">C. Dombry, J. Legrand & T. Opitz</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong> 
@@ -226,7 +232,7 @@ out what ‘exceeding a threshold’ means across space._
 :::
 </div>
 <hr class="book-rule">
-##### Chapter 17
+##### <span class="chap-title">Chapter 17</span><span class="chap-authors">L. Zhang, C. Rohrbeck & T. Opitz</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong> 
@@ -239,7 +245,7 @@ theoretical limits._
 :::
 </div>
 <hr class="book-rule">
-##### Chapter 18
+##### <span class="chap-title">Chapter 18</span><span class="chap-authors">M. Oesting & K. Strokorb</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong> 
@@ -251,7 +257,7 @@ extremes requires more than simply adding a time dimension to spatial models._
 :::
 </div>
 <hr class="book-rule">
-##### Chapter 19
+##### <span class="chap-title">Chapter 19</span><span class="chap-authors">V. Chavez-Demoulin & L. Mhalla</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong> 
@@ -263,7 +269,7 @@ using real data from the Seine River network._
 :::
 </div>
 <hr class="book-rule">
-##### Chapter 20
+##### <span class="chap-title">Chapter 20</span><span class="chap-authors">M. Allouche, S. Girard & E. Gobet</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong> 
@@ -274,7 +280,7 @@ in simulating heavy-tailed phenomena and presents fresh solutions._
 :::
 </div>
 <hr class="book-rule">
-##### Chapter 21
+##### <span class="chap-title">Chapter 21</span><span class="chap-authors">J. Richards & R. Huser</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong> 
@@ -286,7 +292,7 @@ extrapolating beyond observed data._
 :::
 </div>
 <hr class="book-rule">
-##### Chapter 22
+##### <span class="chap-title">Chapter 22</span><span class="chap-authors">A. Daouia & G. Stupfler</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong> 
@@ -299,7 +305,7 @@ in finance and natural disasters._
 :::
 </div>
 <hr class="book-rule">
-##### Chapter 23
+##### <span class="chap-title">Chapter 23</span><span class="chap-authors">R. L. Smith</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong> 
@@ -312,7 +318,7 @@ attribution of extreme weather events._
 :::
 </div>
 <hr class="book-rule">
-##### Chapter 24
+##### <span class="chap-title">Chapter 24</span><span class="chap-authors">T. L. Thorarinsdottir</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong> 
@@ -325,7 +331,7 @@ risk assessment._
 :::
 </div>
 <hr class="book-rule">
-##### Chapter 25
+##### <span class="chap-title">Chapter 25</span><span class="chap-authors">C. Gaetan, T. Opitz & G. Toulemonde</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong> 
@@ -339,7 +345,7 @@ predictions, particularly for flood risk assessment._
 :::
 </div>
 <hr class="book-rule">
-##### Chapter 26
+##### <span class="chap-title">Chapter 26</span><span class="chap-authors">J. Koh</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong> 
@@ -352,7 +358,7 @@ challenges in fire risk assessment under climate change._
 :::
 </div>
 <hr class="book-rule">
-##### Chapter 27
+##### <span class="chap-title">Chapter 27</span><span class="chap-authors">R. Yadav, L. Lombardo & R. Huser</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong> 
@@ -365,7 +371,7 @@ particular attention to extreme landslides, which are the most devastating ones.
 :::
 </div>
 <hr class="book-rule">
-##### Chapter 28
+#### <span class="chap-title">Chapter 28</span><span class="chap-authors">A. Kiriliouk & C. Zhou</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong> 
@@ -379,7 +385,7 @@ analysis._
 :::
 </div>
 <hr class="book-rule">
-##### Chapter 29
+#### <span class="chap-title">Chapter 29</span><span class="chap-authors">H. Albrecher & J. Beirlant</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong> 
@@ -390,7 +396,7 @@ these methods support risk management and pricing, especially in reinsurance._
 :::
 </div>
 <hr class="book-rule">
-##### Chapter 30
+#### <span class="chap-title">Chapter 30</span><span class="chap-authors">P. V. Redondo, M. B. Guerrero, R. Huser & H. Ombao</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong> 
@@ -403,7 +409,7 @@ abnormalities such as epileptic seizures._
 :::
 </div>
 <hr class="book-rule">
-##### Chapter 31
+#### <span class="chap-title">Chapter 31</span><span class="chap-authors">L. R. Belzile & J. G. Nešlehová</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong> 
