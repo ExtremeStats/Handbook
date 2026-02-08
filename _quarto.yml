@@ -7,7 +7,7 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: About
+        text: Welcome
       - contents.qmd
       - data.qmd
       - suppinfo.qmd

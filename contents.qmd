@@ -24,13 +24,91 @@ engine: knitr
   float: right;
   font-style: italic;
 }
+
+.favorite-btn{
+  background:#f7f7f7;
+  border:1px solid #ccc;
+  padding:0.45em 0.9em;
+  font-size:0.95em;
+  border-radius:999px;
+  cursor:pointer;
+  user-select:none;
+}
+.favorite-btn:hover{ background:#eee; }
+.favorite-btn.is-fav{
+  background: #f2f6fa;
+  border-left: 5px solid #003366;
+  <!-- background:#fff3cd; -->
+  <!-- border-color:#e6c200; -->
+}
+#bookmark-button{
+  font-size: 0.8em;
+}
+.bookmark-star{
+  color: #003366;
+}
+
 ```
 
 ![](images/cover.jpg){width="150px"}  
 
-## Contents
+## Contents 
+```{=html}
+<button id="bookmark-button" class="favorite-btn" type="button" style="display:none;">
+  <span class="bookmark-star">★</span> Bookmark
+</button>
+
+<script>
+(function () {
+  // 1) Move button into "On this page" sidebar after Quarto builds it
+  function moveButton() {
+    const toc = document.querySelector("#quarto-margin-sidebar .toc-active")
+            || document.querySelector("#quarto-margin-sidebar #TOC")
+            || document.querySelector("#TOC");
+
+    const btn = document.getElementById("bookmark-button");
+    if (!toc || !btn) return;
+
+    btn.style.display = "inline-block";
+
+    const wrap = document.createElement("div");
+    wrap.style.textAlign = "left";
+    wrap.style.paddingRight = "0em";   // ← moves it left
+
+    wrap.appendChild(btn);
+    toc.appendChild(wrap);
+  }
+
+  // Try now, and also after load in case the TOC is inserted late
+  document.addEventListener("DOMContentLoaded", moveButton);
+  window.addEventListener("load", moveButton);
+
+  // 2) Event delegation: click works even if button is moved/replaced
+  document.addEventListener("click", function (e) {
+    const btn = e.target.closest("#bookmark-button");
+    if (!btn) return;
+
+    if (window.sidebar && window.sidebar.addPanel) { // Firefox (legacy)
+      window.sidebar.addPanel(document.title, window.location.href, "");
+    } else if (window.external && ("AddFavorite" in window.external)) { // IE
+      window.external.AddFavorite(location.href, document.title);
+    } else if (window.opera && window.print) { // Opera
+      btn.title = document.title;
+      return true;
+    } else { // modern browsers
+      alert(
+        "Press " +
+        (navigator.userAgent.toLowerCase().indexOf("mac") !== -1 ? "Command (⌘)" : "Ctrl") +
+        " + D to bookmark this page."
+      );
+    }
+  });
+})();
+</script>
+```
+
 ::: {.justify}
-Each chapter opens with a short, informal blurb offering a high-level overview of what follows—what we call an _Outline_. To give a flavour of the Handbook, these Outlines are reproduced below.
+<br>Each chapter opens with a short, informal blurb offering a high-level overview of what follows—what we call an _Outline_. To give a flavour of the Handbook, these Outlines are reproduced below.
 :::
 
 <iframe src="images/chapters.pdf"
@@ -196,7 +274,7 @@ US airports._
 :::
 </div>
 <hr class="book-rule">
-##### <span class="chap-title">**Chapter 14**</span><span class="chap-authors">S. Engelke, M. Hentschel, M. Lalancette & Frank Röttger</span>
+##### <span class="chap-title">**Chapter 14**</span><span class="chap-authors">G. Auld, L. De Monte & I. Papastathopoulos</span>
 <div class="handbook-banner">
 ::: {.justify}
 <p><strong>Outline:</strong> 
@@ -434,4 +512,3 @@ extremes is still possible even when some information is missing._
 ```
 </p>
 </div> 
-

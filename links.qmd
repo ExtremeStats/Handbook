@@ -27,14 +27,98 @@ engine: knitr
 .chap-authors {
   float: right;
 }
+
+.vertical-text {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+.favorite-btn{
+  background:#f7f7f7;
+  border:1px solid #ccc;
+  padding:0.45em 0.9em;
+  font-size:0.95em;
+  border-radius:999px;
+  cursor:pointer;
+  user-select:none;
+}
+.favorite-btn:hover{ background:#eee; }
+.favorite-btn.is-fav{
+  background: #f2f6fa;
+  border-left: 5px solid #003366;
+  <!-- background:#fff3cd; -->
+  <!-- border-color:#e6c200; -->
+}
+#bookmark-button{
+  font-size: 0.8em;
+}
+.bookmark-star{
+  color: #003366;
+}
+
 ```
 
 ![](images/cover.jpg){width="150px"}  
+```{=html}
+<button id="bookmark-button" class="favorite-btn" type="button" style="display:none;">
+  <span class="bookmark-star">★</span> Bookmark
+</button>
 
-## Further Books
+<script>
+(function () {
+  // 1) Move button into "On this page" sidebar after Quarto builds it
+  function moveButton() {
+    const toc = document.querySelector("#quarto-margin-sidebar .toc-active")
+            || document.querySelector("#quarto-margin-sidebar #TOC")
+            || document.querySelector("#TOC");
+
+    const btn = document.getElementById("bookmark-button");
+    if (!toc || !btn) return;
+
+    btn.style.display = "inline-block";
+
+    const wrap = document.createElement("div");
+    wrap.style.textAlign = "left";
+    wrap.style.paddingRight = "0em";   // ← moves it left
+
+    wrap.appendChild(btn);
+    toc.appendChild(wrap);
+  }
+
+  // Try now, and also after load in case the TOC is inserted late
+  document.addEventListener("DOMContentLoaded", moveButton);
+  window.addEventListener("load", moveButton);
+
+  // 2) Event delegation: click works even if button is moved/replaced
+  document.addEventListener("click", function (e) {
+    const btn = e.target.closest("#bookmark-button");
+    if (!btn) return;
+
+    if (window.sidebar && window.sidebar.addPanel) { // Firefox (legacy)
+      window.sidebar.addPanel(document.title, window.location.href, "");
+    } else if (window.external && ("AddFavorite" in window.external)) { // IE
+      window.external.AddFavorite(location.href, document.title);
+    } else if (window.opera && window.print) { // Opera
+      btn.title = document.title;
+      return true;
+    } else { // modern browsers
+      alert(
+        "Press " +
+        (navigator.userAgent.toLowerCase().indexOf("mac") !== -1 ? "Command (⌘)" : "Ctrl") +
+        " + D to bookmark this page."
+      );
+    }
+  });
+})();
+</script>
+```
+
+## Articles & Books
 <div class="handbook-banner">
-<p>
-Several other excellent references are discussed throughout the book, with many of them highlighted in the opening Chapter 2 of the Handbook authored by Anthony C. Davison and Ophélia Miralles.</p><br><br>
+::: {.justify}
+The Handbook points to a broad range of articles and books; among these, several well-regarded monographs are highlighted in Chapter 2 by Anthony C. Davison and Ophélia Miralles.
+:::
+<br>
 <div style="text-align: center;">
 ![](images/chap2.png){fig-align="center" width="60%"}
 </div>
@@ -52,12 +136,11 @@ EVA 0 — Statistical Extremes and Applications, Vimeiro, Portugal (1983).
 Courtesy of Feridun Turkman and Laurens de Haan.
 </div>
 
-<a href="https://hecsciencesdecision.github.io/eva2027/" target = "_blank">Join us at EVA 2027 in Montréal.</a><br>
-
-### <span class="chap-title">**EVA 2027**</span><span class="chap-authors">5-9 July</span>
-##### <span class="chap-title"></span><span class="chap-authors">Montreal, Quebec, Canada</span> 
-<div style="text-align: center;">
-![](images/hec.png){fig-align="center" width="30%"}
+<hr class="book-rule">
+### <span class="chap-title">**EVA 2027**</span><span class="chap-authors">5--9 July</span>
+<a href="https://hecsciencesdecision.github.io/eva2027/" target = "_blank">Join us at EVA 2027 in Montréal (Quebec, Canada).</a><br>
+<div style="text-align: center;"><br>
+<!-- ![](images/hec.png){fig-align="center" width="30%"} -->
 <!-- ![](images/hec.jpg){fig-align="center" width="63%"} -->
 <video controls autoplay muted playsinline loop style="display:block; margin: 0 auto; width:63.5%;">
   <source src="videos/hec.mp4" type="video/mp4">
@@ -68,12 +151,22 @@ Courtesy of Feridun Turkman and Laurens de Haan.
 ## Extremes
 <div class="handbook-banner">
 ::: {.justify}
-An indicator of the field’s vitality is the Springer journal <a href = "https://www.springer.com/journal/10687/" target = "_blank">_Extremes_</a>, which regularly publishes novel methodological developments across all areas of extreme value statistics. While a range of other outlets feature work on the statistical modeling of extreme events, _Extremes_ is widely regarded as the leading journal within the extreme value theory community. Many of the central developments presented in the Handbook have been published in _Extremes_ or in other leading journals in the field<br>
+An indicator of the field’s vitality is the Springer journal <a href = "https://www.springer.com/journal/10687/" target = "_blank">_Extremes_</a>, which regularly publishes novel methodological developments across all areas of extreme value statistics. While a range of other outlets feature work on the statistical modeling of extreme events, _Extremes_ is widely regarded as the leading journal within the extreme value theory community. Many of the central developments presented in the Handbook have been published in _Extremes_ or in other leading journals in the field.<br>
 :::
 <div style="text-align: center;">
 ![](images/extremes.jpg){fig-align="center" width="30%"}<br>
 ![](images/springer.png){fig-align="center" width="30%"}
+<br>
 </div>
+One of the forthcoming special issues of _Extremes_ is dedicated to the interface between Extreme Value Analysis and AI. A preview of the editorial is available <a href="https://webhomes.maths.ed.ac.uk/~mdecarv/papers/editorial.pdf" download>here</a>.
+<a href="https://webhomes.maths.ed.ac.uk/~mdecarv/papers/editorial.pdf" download>
+<div style="text-align: center;">
+![](images/logoissue.jpg){fig-align="center" width="60%"}
+<span style="writing-mode: vertical-rl; font-size: 0.6em">
+Getty images
+</span>
+</div>
+</a>
 </div>
 
 ## Software

@@ -92,7 +92,7 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
-<span class="menu-text">About</span></a>
+<span class="menu-text">Welcome</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./contents.html"> 
@@ -125,8 +125,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#supplementary-materials" id="toc-supplementary-materials" class="nav-link active" data-scroll-target="#supplementary-materials">Supplementary Materials</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -151,10 +157,108 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="cell">
+<style type="text/css">
+.justify {
+  text-align: justify !important
+}
+
+.book-rule {
+  border: none;
+  border-top: 1px solid #bbb;
+  width: 35%;
+  margin: 2.5em auto;
+}
+
+.chap-title {
+  float: left;
+}
+
+.chap-authors {
+  float: right;
+  font-style: italic;
+}
+
+.favorite-btn{
+  background:#f7f7f7;
+  border:1px solid #ccc;
+  padding:0.45em 0.9em;
+  font-size:0.95em;
+  border-radius:999px;
+  cursor:pointer;
+  user-select:none;
+}
+.favorite-btn:hover{ background:#eee; }
+.favorite-btn.is-fav{
+  background: #f2f6fa;
+  border-left: 5px solid #003366;
+  <!-- background:#fff3cd; -->
+  <!-- border-color:#e6c200; -->
+}
+#bookmark-button{
+  font-size: 0.8em;
+}
+.bookmark-star{
+  color: #003366;
+}
+
+</style>
+</div>
 <p><img src="images/cover.jpg" class="img-fluid" width="150"></p>
+<button id="bookmark-button" class="favorite-btn" type="button" style="display:none;">
+  <span class="bookmark-star">★</span> Bookmark
+</button>
+
+<script>
+(function () {
+  // 1) Move button into "On this page" sidebar after Quarto builds it
+  function moveButton() {
+    const toc = document.querySelector("#quarto-margin-sidebar .toc-active")
+            || document.querySelector("#quarto-margin-sidebar #TOC")
+            || document.querySelector("#TOC");
+
+    const btn = document.getElementById("bookmark-button");
+    if (!toc || !btn) return;
+
+    btn.style.display = "inline-block";
+
+    const wrap = document.createElement("div");
+    wrap.style.textAlign = "left";
+    wrap.style.paddingRight = "0em";   // ← moves it left
+
+    wrap.appendChild(btn);
+    toc.appendChild(wrap);
+  }
+
+  // Try now, and also after load in case the TOC is inserted late
+  document.addEventListener("DOMContentLoaded", moveButton);
+  window.addEventListener("load", moveButton);
+
+  // 2) Event delegation: click works even if button is moved/replaced
+  document.addEventListener("click", function (e) {
+    const btn = e.target.closest("#bookmark-button");
+    if (!btn) return;
+
+    if (window.sidebar && window.sidebar.addPanel) { // Firefox (legacy)
+      window.sidebar.addPanel(document.title, window.location.href, "");
+    } else if (window.external && ("AddFavorite" in window.external)) { // IE
+      window.external.AddFavorite(location.href, document.title);
+    } else if (window.opera && window.print) { // Opera
+      btn.title = document.title;
+      return true;
+    } else { // modern browsers
+      alert(
+        "Press " +
+        (navigator.userAgent.toLowerCase().indexOf("mac") !== -1 ? "Command (⌘)" : "Ctrl") +
+        " + D to bookmark this page."
+      );
+    }
+  });
+})();
+</script>
+<section id="supplementary-materials" class="level2">
+<h2 class="anchored" data-anchor-id="supplementary-materials">Supplementary Materials</h2>
 <div class="handbook-banner">
-<p>
-</p><p><strong>Supplementary Materials</strong></p>
 <div class="justify">
 <p>This page is currently under construction. More materials will be added here over the coming weeks.</p>
 </div>
@@ -172,9 +276,9 @@ ul.task-list li input[type="checkbox"] {
 </div>
 
 
-</main></div>
+</section>
 
- <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -575,7 +679,7 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
- <!-- /content -->
+</div> <!-- /content -->
 
 
 

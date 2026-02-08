@@ -127,7 +127,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
-<span class="menu-text">About</span></a>
+<span class="menu-text">Welcome</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./contents.html"> 
@@ -252,9 +252,85 @@ border: none;
   width: 35%;
   margin: 2.5em auto;
 }
+
+.favorite-btn{
+  background:#f7f7f7;
+  border:1px solid #ccc;
+  padding:0.45em 0.9em;
+  font-size:0.95em;
+  border-radius:999px;
+  cursor:pointer;
+  user-select:none;
+}
+.favorite-btn:hover{ background:#eee; }
+.favorite-btn.is-fav{
+  background: #f2f6fa;
+  border-left: 5px solid #003366;
+  <!-- background:#fff3cd; -->
+  <!-- border-color:#e6c200; -->
+}
+
+#bookmark-button{
+  font-size: 0.8em;
+}
+.bookmark-star{
+  color: #003366;
+}
+
 </style>
 </div>
 <p><img src="images/cover.jpg" class="img-fluid" width="150"></p>
+<button id="bookmark-button" class="favorite-btn" type="button" style="display:none;">
+  <span class="bookmark-star">★</span> Bookmark
+</button>
+
+<script>
+(function () {
+  // 1) Move button into "On this page" sidebar after Quarto builds it
+  function moveButton() {
+    const toc = document.querySelector("#quarto-margin-sidebar .toc-active")
+            || document.querySelector("#quarto-margin-sidebar #TOC")
+            || document.querySelector("#TOC");
+
+    const btn = document.getElementById("bookmark-button");
+    if (!toc || !btn) return;
+
+    btn.style.display = "inline-block";
+
+    const wrap = document.createElement("div");
+    wrap.style.textAlign = "left";
+    wrap.style.paddingRight = "0em";   // ← moves it left
+
+    wrap.appendChild(btn);
+    toc.appendChild(wrap);
+  }
+
+  // Try now, and also after load in case the TOC is inserted late
+  document.addEventListener("DOMContentLoaded", moveButton);
+  window.addEventListener("load", moveButton);
+
+  // 2) Event delegation: click works even if button is moved/replaced
+  document.addEventListener("click", function (e) {
+    const btn = e.target.closest("#bookmark-button");
+    if (!btn) return;
+
+    if (window.sidebar && window.sidebar.addPanel) { // Firefox (legacy)
+      window.sidebar.addPanel(document.title, window.location.href, "");
+    } else if (window.external && ("AddFavorite" in window.external)) { // IE
+      window.external.AddFavorite(location.href, document.title);
+    } else if (window.opera && window.print) { // Opera
+      btn.title = document.title;
+      return true;
+    } else { // modern browsers
+      alert(
+        "Press " +
+        (navigator.userAgent.toLowerCase().indexOf("mac") !== -1 ? "Command (⌘)" : "Ctrl") +
+        " + D to bookmark this page."
+      );
+    }
+  });
+})();
+</script>
 <section id="loading-downloading-data" class="level2">
 <h2 class="anchored" data-anchor-id="loading-downloading-data">Loading &amp; Downloading Data</h2>
 <div class="handbook-banner">
@@ -273,7 +349,7 @@ border: none;
 </figure>
 </div>
 </div>
-<p>To cite <code>DATAstudio</code> in publications, here is the <a href="bib/library.bib" download="">BibTeX entry</a>.</p>
+<p>To cite <code>DATAstudio</code> in publications, here is the <a href="bib/DATAstudio.bib" download="">BibTeX entry</a>.</p>
 </div>
 </section>
 <section id="datasets" class="level2">
@@ -286,7 +362,7 @@ Part I. Opening Remarks
 </summary>
 <ul class="chapters">
 <li>
-<span class="chapter-title">1. Handbook Outline</span><br> <span class="chapter-authors">Dataset: None</span>
+<span class="chapter-title">1. Handbook Outline</span><br> <span class="chapter-authors"></span>
 </li>
 </ul>
 </details>
@@ -352,13 +428,13 @@ Part IV. Spatial and Temporal Extremes
 <span class="chapter-title">15. Max-Stable Processes for Spatial Extremes</span><br><span class="chapter-authors">Dataset: <code>maxtemps</code></span>
 </li>
 <li>
-<span class="chapter-title">16. Pareto Processes for Threshold Exceedances in Spatial Extremes</span><br><span class="chapter-authors">Dataset: TBA</span>
+<span class="chapter-title">16. Pareto Processes for Threshold Exceedances in Spatial Extremes</span><br><span class="chapter-authors">Dataset: <code>waveheights</code></span>
 </li>
 <li>
 <span class="chapter-title">17. Subasymptotic Models for Spatial Extremes</span><br><span class="chapter-authors">Dataset: TBA</span>
 </li>
 <li>
-<span class="chapter-title">18. Space-Time Modeling of Extremes</span><br><span class="chapter-authors">Dataset: TBA</span>
+<span class="chapter-title">18. Space-Time Modeling of Extremes</span><br><span class="chapter-authors">Dataset: None</span>
 </li>
 </ul>
 </details>
@@ -368,13 +444,13 @@ Part V. Emerging Topics
 </summary>
 <ul class="chapters">
 <li>
-<span class="chapter-title">19. Causality and Extremes</span><br><span class="chapter-authors">Dataset: TBA</span>
+<span class="chapter-title">19. Causality and Extremes</span><br><span class="chapter-authors">Dataset: <code>seine</code></span>
 </li>
 <li>
 <span class="chapter-title">20. On the Simulation of Extreme Events with Neural Networks</span><br><span class="chapter-authors">Dataset: TBA</span>
 </li>
 <li>
-<span class="chapter-title">21. Extreme Quantile Regression with Deep Learning</span><br><span class="chapter-authors">Dataset: TBA</span>
+<span class="chapter-title">21. Extreme Quantile Regression with Deep Learning</span><br><span class="chapter-authors">Dataset: <code>eurorain</code></span>
 </li>
 <li>
 <span class="chapter-title">22. Risk Measures Beyond Quantiles</span><br><span class="chapter-authors">Dataset: TBA</span>
@@ -393,25 +469,25 @@ Part VI. Applications and Case Studies
 <span class="chapter-title">24. Evaluation of Extreme Forecasts and Projections</span><br><span class="chapter-authors">Dataset: TBA</span>
 </li>
 <li>
-<span class="chapter-title">25. Statistical Modeling of Extreme Precipitation</span><br><span class="chapter-authors">Dataset: TBA</span>
+<span class="chapter-title">25. Statistical Modeling of Extreme Precipitation</span><br><span class="chapter-authors">Dataset: <code>rain_germany</code>; <code>rain_jena</code></span>
 </li>
 <li>
-<span class="chapter-title">26. Statistics of Extremes for Wildfires</span><br><span class="chapter-authors">Dataset: TBA</span>
+<span class="chapter-title">26. Statistics of Extremes for Wildfires</span><br><span class="chapter-authors">Dataset: <code>CALI_DF</code>; <code>GB_DF</code></span>
 </li>
 <li>
 <span class="chapter-title">27. Statistics of Extremes for Landslides and Earthquakes</span><br><span class="chapter-authors">Dataset: TBA</span>
 </li>
 <li>
-<span class="chapter-title">28. Tail Risk Analysis for Financial Time Series</span><br><span class="chapter-authors">Dataset: TBA</span>
+<span class="chapter-title">28. Tail Risk Analysis for Financial Time Series</span><br><span class="chapter-authors">Dataset: <code>SP500_DJIA</code>; <code>SP500_FTSE</code>; <code>returnsSP500</code></span>
 </li>
 <li>
-<span class="chapter-title">29. Statistics of Extremes for the Insurance Industry</span><br><span class="chapter-authors">Dataset: TBA</span>
+<span class="chapter-title">29. Statistics of Extremes for the Insurance Industry</span><br><span class="chapter-authors">Dataset: <code>loss</code></span>
 </li>
 <li>
-<span class="chapter-title">30. Statistics of Extremes for Neuroscience</span><br><span class="chapter-authors">Dataset: TBA</span>
+<span class="chapter-title">30. Statistics of Extremes for Neuroscience</span><br><span class="chapter-authors">Dataset: <code>epilepsy</code></span>
 </li>
 <li>
-<span class="chapter-title">31. Statistics of Extremes for Incomplete Data, with Application to Lifetime and Liability Claim Modeling</span><br><span class="chapter-authors">Dataset: TBA</span>
+<span class="chapter-title">31. Statistics of Extremes for Incomplete Data, with Application to Lifetime and Liability Claim Modeling</span><br><span class="chapter-authors">Dataset: <code>englandwales</code>; <code>loss</code></span>
 </li>
 </ul>
 </details>

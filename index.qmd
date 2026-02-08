@@ -1,7 +1,10 @@
 ---
 title: "Handbook of Statistics of Extremes"
 subtitle: "Chapman & Hall/CRC" 
-format: html
+format:
+  html:
+    self-contained: false
+    sanitize: false
 engine: knitr
 ---
 
@@ -16,14 +19,92 @@ engine: knitr
   width: 35%;
   margin: 2.5em auto;
 }
+
+.favorite-btn{
+  background:#f7f7f7;
+  border:1px solid #ccc;
+  padding:0.45em 0.9em;
+  font-size:0.95em;
+  border-radius:999px;
+  cursor:pointer;
+  user-select:none;
+}
+.favorite-btn:hover{ background:#eee; }
+.favorite-btn.is-fav{
+  background: #f2f6fa;
+  border-left: 5px solid #003366;
+  <!-- background:#fff3cd; -->
+  <!-- border-color:#e6c200; -->
+}
+#bookmark-button{
+  font-size: 0.8em;
+}
+.bookmark-star{
+  color: #003366;
+}
+
 ```
 
 ![](images/cover.jpg){width="150px"}
-<div class="handbook-banner">
-<p><strong>About the Handbook</strong> 
+```{=html}
+<button id="bookmark-button" class="favorite-btn" type="button" style="display:none;">
+  <span class="bookmark-star">★</span> Bookmark
+</button>
 
+<script>
+(function () {
+  // 1) Move button into "On this page" sidebar after Quarto builds it
+  function moveButton() {
+    const toc = document.querySelector("#quarto-margin-sidebar .toc-active")
+            || document.querySelector("#quarto-margin-sidebar #TOC")
+            || document.querySelector("#TOC");
+
+    const btn = document.getElementById("bookmark-button");
+    if (!toc || !btn) return;
+
+    btn.style.display = "inline-block";
+
+    const wrap = document.createElement("div");
+    wrap.style.textAlign = "left";
+    wrap.style.paddingRight = "0em";   // ← moves it left
+
+    wrap.appendChild(btn);
+    toc.appendChild(wrap);
+  }
+
+  // Try now, and also after load in case the TOC is inserted late
+  document.addEventListener("DOMContentLoaded", moveButton);
+  window.addEventListener("load", moveButton);
+
+  // 2) Event delegation: click works even if button is moved/replaced
+  document.addEventListener("click", function (e) {
+    const btn = e.target.closest("#bookmark-button");
+    if (!btn) return;
+
+    if (window.sidebar && window.sidebar.addPanel) { // Firefox (legacy)
+      window.sidebar.addPanel(document.title, window.location.href, "");
+    } else if (window.external && ("AddFavorite" in window.external)) { // IE
+      window.external.AddFavorite(location.href, document.title);
+    } else if (window.opera && window.print) { // Opera
+      btn.title = document.title;
+      return true;
+    } else { // modern browsers
+      alert(
+        "Press " +
+        (navigator.userAgent.toLowerCase().indexOf("mac") !== -1 ? "Command (⌘)" : "Ctrl") +
+        " + D to bookmark this page."
+      );
+    }
+  });
+})();
+</script>
+```
+
+## Welcome
+<div class="handbook-banner">
+<!-- <strong>About the Handbook</strong>  -->
 ::: {.justify}
-<p>Welcome to the webpage of the Handbook of Statistics of Extremes. 
+Welcome to the webpage of the Handbook of Statistics of Extremes. 
 The Handbook brings together leading voices in the extreme value theory 
 community to offer a clear and reliable reference for the field.
 
@@ -32,10 +113,8 @@ materials.
 
 The Handbook is currently with the production team at Chapman & Hall/CRC and is 
 expected to be released in mid-2026. 
-
-</p>
-</div>
 :::
+</div>
 
 <div class="handbook-banner">
   <p><strong>How to cite</strong> 
@@ -50,13 +129,9 @@ expected to be released in mid-2026.
 }
 ```
 
-<p> In addition to citing the Handbook, please also cite the specific chapter you are referring to. <a href="library.bib" download>Click here for BibTeX entries for all chapters.</a> </p> </div> 
-<!--
-<a href="https://www.amazon.com/Handbook-Statistics-Extremes-Handbooks-Statistical/dp/1032519800" target="_blank">
-→ Pre-order your copy
-</a><br><br>
--->
-<hr class="book-rule">
+In addition to citing the Handbook, please also cite the specific chapter you are referring to. <a href="library.bib" download>Click here for BibTeX entries for all chapters.</a> </div> 
+
+<!-- <hr class="book-rule"> -->
 <div style="text-align: center;">
 <p><strong>Pre-order your copy</strong> <br>
 ```{=html}
@@ -68,4 +143,3 @@ expected to be released in mid-2026.
 ```
 </p>
 </div> 
-
