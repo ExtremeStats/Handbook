@@ -218,7 +218,7 @@ The newsletter provides a convenient way to advertise opportunities relevant to 
 ::: {.justify}
 Other meetings, such as EVAN (International Conference on Advances in Extreme Value Analysis), also provide valuable forums for discussion. Several networks devoted to extreme value theory are active; for example, in Scotland, the 
 <a href = "https://www.gla.ac.uk/schools/mathematicsstatistics/staff/danielacastrocamilo/glenglasgow-edinburghextremesnetwork/" target = "_blank">
-Glasgow--Edinburgh Extremes Network (GLE$^2$N)</a> has provided leadership for a range of activities and events, including <a href = "https://gail.ed.ac.uk/news-and-events/events/generative-ai-modelling-for-extreme-events-2025" target = "_blank">GAME 2025</a>---the first workshop on Generative AI Modeling for Extreme Events. A related network is also active in Italy.
+Glasgow--Edinburgh Extremes Network (GLE$^2$N)</a> has provided leadership for a range of activities and events, including <a href = "https://gail.ed.ac.uk/news-and-events/events/generative-ai-modelling-for-extreme-events-2025" target = "_blank">GAME 2025</a>---the first workshop on Generative AI Modeling for Extreme Events. A related local extreme values network---<a href = "https://circe-site.github.io/site/" target = "_blank">CIRCE</a>---is also active in Italy.
 :::
 </div>
 
