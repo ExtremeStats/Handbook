@@ -129,7 +129,7 @@ expected to be released in mid-2026.
 }
 ```
 
-In addition to citing the Handbook, please also cite the specific chapter you are referring to. <a href="library.bib" download>Click here for BibTeX entries for all chapters.</a> </div> 
+In addition to citing the Handbook, please also cite the specific chapter you are referring to. <a href="bib/library.bib" download>Click here for BibTeX entries for all chapters.</a> </div> 
 
 <!-- <hr class="book-rule"> -->
 <div style="text-align: center;">
