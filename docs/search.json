@@ -67,7 +67,14 @@
     "href": "suppinfo.html#supplementary-materials",
     "title": "Supporting Information",
     "section": "Supplementary Materials",
-    "text": "Supplementary Materials\n\n\nThis page is currently under construction. More materials will be added here over the coming weeks.\n\n\n\n\n\nPre-order your copy"
+    "text": "Supplementary Materials\n\n\nThis page is currently under construction."
+  },
+  {
+    "objectID": "suppinfo.html#codes",
+    "href": "suppinfo.html#codes",
+    "title": "Supporting Information",
+    "section": "Codes",
+    "text": "Codes\n\n\n\n\nPart I. Opening Remarks\n\n\n\n1. Handbook Outline \n\n\n\n\n\nPart II. Univariate Extremes\n\n\n\n2. Modeling Univariate Extremes—Why and How Code:      \n\n\n3. Learning About Extreme Value Distributions from DataCode:      \n\n\n4. Bayesian Methods for Extreme Value AnalysisCode:      \n\n\n5. Jointly Modeling the Bulk and TailsCode:      \n\n\n6. Regression Models for Extreme EventsCode:      \n\n\n\n\n\nPart III. Multivariate Extremes\n\n\n\n7. Multivariate Extreme Value TheoryCode: None.\n\n\n8. Measures of Extremal DependenceCode:      \n\n\n9. Regression Models for Multivariate ExtremesCode:      \n\n\n10. Conditional Extremes ModelingCode:      \n\n\n11. Principal Component Analysis for Multivariate ExtremesCode:     \n\n\n12. Clustering Methods for Multivariate Extremes Code:      \n\n\n13. Graphical Models for Multivariate ExtremesCode:      \n\n\n\n\n\nPart IV. Spatial and Temporal Extremes\n\n\n\n14. Time Series in ExtremesCode:      \n\n\n15. Max-Stable Processes for Spatial ExtremesCode:      \n\n\n16. Pareto Processes for Threshold Exceedances in Spatial ExtremesCode:      \n\n\n17. Subasymptotic Models for Spatial ExtremesCode:      \n\n\n18. Space-Time Modeling of ExtremesCode:      \n\n\n\n\n\nPart V. Emerging Topics\n\n\n\n19. Causality and ExtremesCode:      \n\n\n20. On the Simulation of Extreme Events with Neural NetworksCode:      \n\n\n21. Extreme Quantile Regression with Deep LearningCode:      \n\n\n22. Risk Measures Beyond QuantilesCode:      \n\n\n\n\n\nPart VI. Applications and Case Studies\n\n\n\n23. Detection and Attribution of Extreme Weather Events: A Statistical ReviewCode:     \n\n\n24. Evaluation of Extreme Forecasts and Projections Code:     \n\n\n25. Statistical Modeling of Extreme PrecipitationCode:      \n\n\n26. Statistics of Extremes for Wildfires Code:     \n\n\n27. Statistics of Extremes for Landslides and EarthquakesCode:      \n\n\n28. Tail Risk Analysis for Financial Time Series Code:     \n\n\n29. Statistics of Extremes for the Insurance Industry Code:     \n\n\n30. Statistics of Extremes for NeuroscienceCode:      \n\n\n31. Statistics of Extremes for Incomplete Data, with Application to Lifetime and Liability Claim ModelingCode:      \n\n\n\n\n\n\n\nPre-order your copy"
   },
   {
     "objectID": "contents.html#contents",

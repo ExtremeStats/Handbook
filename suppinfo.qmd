@@ -25,6 +25,53 @@ engine: knitr
   font-style: italic;
 }
 
+/* Light callout block */
+.toc-block {
+border-left: 4px solid #1f77b4;
+padding: 0.8rem 1rem;
+background: #f7fbff;
+border-radius: 6px;
+margin: 1rem 0 1.5rem 0;
+}
+
+/* Collapsible parts styling */
+.parts details {
+margin: 0.6rem 0;
+padding: 0.6rem 0.8rem;
+border: 1px solid #e6e6e6;
+border-radius: 6px;
+background:#f7fbff;border-left:4px solid #003366;padding:.8rem 1rem;border-radius:6px;line-height:1.4
+}
+
+.parts summary {
+cursor: pointer;
+font-weight: 650;
+}
+
+.chapters {
+margin-top: 0.6rem;
+margin-bottom: 0;
+}
+
+.chapters li {
+margin: 0.25rem 0;
+}
+
+.chapter-title {
+font-weight: 600;
+}
+
+.chapter-authors {
+color: #555;
+}
+
+/* Optional: make the PDF viewer responsive if you enable it below */
+.pdf-viewer {
+width: 100%;
+height: 80vh;
+border: none;
+}
+
 .favorite-btn{
   background:#f7f7f7;
   border:1px solid #ccc;
@@ -109,8 +156,571 @@ engine: knitr
 ## Supplementary Materials
 <div class="handbook-banner">
 ::: {.justify}
-This page is currently under construction. More materials will be added here over the coming weeks. 
+This page is currently under construction. 
 :::
+</div>
+
+## Codes
+<div class="parts">
+
+<div class="parts">
+
+<details close>
+<summary>Part I. Opening Remarks</summary>
+<ul class="chapters">
+  <li>
+    <span class="chapter-title">1. Handbook Outline</span><br>
+    <span class="chapter-authors"></span>
+  </li>
+</ul>
+</details>
+
+<details open>
+<summary>Part II. Univariate Extremes</summary>
+<ul class="chapters">
+  <li><span class="chapter-title">2. Modeling Univariate Extremes—Why and How</span><br><span class="chapter-authors">
+  Code: <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter2" target="_blank" rel="noopener"
+   style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
+  <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
+    <path fill="currentColor"
+      d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+      0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+      -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+      2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+      0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+      0 0 .67-.21 2.2.82a7.7 7.7 0 012-.27c.68 0 1.36.09 2 .27
+      1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+      .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95
+      .29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2
+      0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+  </svg>
+  </a>
+  </span></li>
+  <li><span class="chapter-title">3. Learning About Extreme Value Distributions from Data</span><br><span class="chapter-authors">Code: <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter3" target="_blank" rel="noopener"
+   style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
+  <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
+    <path fill="currentColor"
+      d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+      0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+      -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+      2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+      0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+      0 0 .67-.21 2.2.82a7.7 7.7 0 012-.27c.68 0 1.36.09 2 .27
+      1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+      .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95
+      .29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2
+      0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+  </svg>
+  </a>
+  </span></li>
+  <li><span class="chapter-title">4. Bayesian Methods for Extreme Value Analysis</span><br><span class="chapter-authors">Code: 
+  <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter4" target="_blank" rel="noopener"
+   style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
+  <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
+    <path fill="currentColor"
+      d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+      0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+      -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+      2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+      0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+      0 0 .67-.21 2.2.82a7.7 7.7 0 012-.27c.68 0 1.36.09 2 .27
+      1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+      .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95
+      .29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2
+      0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+  </svg>
+  </a>
+  </span></li>
+  <li><span class="chapter-title">5. Jointly Modeling the Bulk and Tails</span><br><span class="chapter-authors">Code: 
+  <a href="https://github.com/noemielc/egpd4gamlss" target="_blank" rel="noopener"
+   style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
+  <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
+    <path fill="currentColor"
+      d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+      0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+      -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+      2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+      0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+      0 0 .67-.21 2.2.82a7.7 7.7 0 012-.27c.68 0 1.36.09 2 .27
+      1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+      .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95
+      .29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2
+      0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+  </svg>
+  </a>
+  </span></li>
+  <li><span class="chapter-title">6. Regression Models for Extreme Events</span><br><span class="chapter-authors">Code: 
+  <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter6" target="_blank" rel="noopener"
+   style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
+  <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
+    <path fill="currentColor"
+      d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+      0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+      -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+      2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+      0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+      0 0 .67-.21 2.2.82a7.7 7.7 0 012-.27c.68 0 1.36.09 2 .27
+      1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+      .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95
+      .29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2
+      0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+  </svg>
+  </a>
+  </span></li>
+</ul>
+</details>
+
+<details open>
+<summary>Part III. Multivariate Extremes</summary>
+<ul class="chapters">
+  <li><span class="chapter-title">7. Multivariate Extreme Value Theory</span><br><span class="chapter-authors">Code: None.</span></li>
+  <li><span class="chapter-title">8. Measures of Extremal Dependence</span><br><span class="chapter-authors">Code: 
+  <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter8" target="_blank" rel="noopener"
+   style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
+  <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
+    <path fill="currentColor"
+      d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+      0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+      -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+      2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+      0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+      0 0 .67-.21 2.2.82a7.7 7.7 0 012-.27c.68 0 1.36.09 2 .27
+      1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+      .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95
+      .29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2
+      0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+  </svg>
+  </a>
+  </span></li>
+  <li><span class="chapter-title">9. Regression Models for Multivariate Extremes</span><br><span class="chapter-authors">Code: 
+  <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter9" target="_blank" rel="noopener"
+   style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
+  <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
+    <path fill="currentColor"
+      d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+      0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+      -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+      2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+      0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+      0 0 .67-.21 2.2.82a7.7 7.7 0 012-.27c.68 0 1.36.09 2 .27
+      1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+      .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95
+      .29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2
+      0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+  </svg>
+  </a>
+  </span></li>
+  <li><span class="chapter-title">10. Conditional Extremes Modeling</span><br><span class="chapter-authors">Code:
+  <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter10" target="_blank" rel="noopener"
+   style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
+  <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
+    <path fill="currentColor"
+      d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+      0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+      -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+      2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+      0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+      0 0 .67-.21 2.2.82a7.7 7.7 0 012-.27c.68 0 1.36.09 2 .27
+      1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+      .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95
+      .29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2
+      0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+  </svg>
+  </a>
+  </span></li>
+  <li><span class="chapter-title">11. Principal Component Analysis for Multivariate Extremes</span><br><span class="chapter-authors">Code: 
+  <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter11" target="_blank" rel="noopener"
+   style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
+  <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
+    <path fill="currentColor"
+      d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+      0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+      -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+      2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+      0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+      0 0 .67-.21 2.2.82a7.7 7.7 0 012-.27c.68 0 1.36.09 2 .27
+      1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+      .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95
+      .29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2
+      0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+  </svg>
+  </a></span></li>
+  <li><span class="chapter-title">12. Clustering Methods for Multivariate Extremes</span><br><span class="chapter-authors">
+  Code: <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter12" target="_blank" rel="noopener"
+   style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
+  <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
+    <path fill="currentColor"
+      d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+      0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+      -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+      2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+      0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+      0 0 .67-.21 2.2.82a7.7 7.7 0 012-.27c.68 0 1.36.09 2 .27
+      1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+      .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95
+      .29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2
+      0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+  </svg>
+  </a>
+  </span></li>
+  <li><span class="chapter-title">13. Graphical Models for Multivariate Extremes</span><br><span class="chapter-authors">Code: 
+  <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter13" target="_blank" rel="noopener"
+   style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
+  <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
+    <path fill="currentColor"
+      d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+      0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+      -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+      2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+      0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+      0 0 .67-.21 2.2.82a7.7 7.7 0 012-.27c.68 0 1.36.09 2 .27
+      1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+      .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95
+      .29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2
+      0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+  </svg>
+  </a>
+  </span></li>
+</ul>
+</details>
+
+<details open>
+<summary>Part IV. Spatial and Temporal Extremes</summary>
+<ul class="chapters">
+  <li><span class="chapter-title">14. Time Series in Extremes</span><br><span class="chapter-authors">Code: 
+  <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter14" target="_blank" rel="noopener"
+   style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
+  <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
+    <path fill="currentColor"
+      d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+      0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+      -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+      2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+      0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+      0 0 .67-.21 2.2.82a7.7 7.7 0 012-.27c.68 0 1.36.09 2 .27
+      1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+      .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95
+      .29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2
+      0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+  </svg>
+  </a>
+  </span></li>
+  <li><span class="chapter-title">15. Max-Stable Processes for Spatial Extremes</span><br><span class="chapter-authors">Code: 
+  <a href="https://github.com/strokorb/max-stable-spatial-inference" target="_blank" rel="noopener"
+   style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
+  <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
+    <path fill="currentColor"
+      d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+      0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+      -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+      2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+      0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+      0 0 .67-.21 2.2.82a7.7 7.7 0 012-.27c.68 0 1.36.09 2 .27
+      1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+      .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95
+      .29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2
+      0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+  </svg>
+  </a>
+  </span></li>
+  <li><span class="chapter-title">16. Pareto Processes for Threshold Exceedances in Spatial Extremes</span><br><span class="chapter-authors">Code: 
+  <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter16" target="_blank" rel="noopener"
+   style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
+  <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
+    <path fill="currentColor"
+      d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+      0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+      -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+      2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+      0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+      0 0 .67-.21 2.2.82a7.7 7.7 0 012-.27c.68 0 1.36.09 2 .27
+      1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+      .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95
+      .29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2
+      0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+  </svg>
+  </a>
+  </span></li>
+  <li><span class="chapter-title">17. Subasymptotic Models for Spatial Extremes</span><br><span class="chapter-authors">Code:
+  <a href="https://github.com/likun-stat/Ch_Subasymptotic" target="_blank" rel="noopener"
+   style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
+  <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
+    <path fill="currentColor"
+      d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+      0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+      -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+      2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+      0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+      0 0 .67-.21 2.2.82a7.7 7.7 0 012-.27c.68 0 1.36.09 2 .27
+      1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+      .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95
+      .29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2
+      0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+  </svg>
+  </a>
+  </span></li>
+  <li><span class="chapter-title">18. Space-Time Modeling of Extremes</span><br><span class="chapter-authors">Code:
+  <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter18" target="_blank" rel="noopener"
+   style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
+  <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
+    <path fill="currentColor"
+      d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+      0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+      -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+      2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+      0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+      0 0 .67-.21 2.2.82a7.7 7.7 0 012-.27c.68 0 1.36.09 2 .27
+      1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+      .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95
+      .29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2
+      0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+  </svg>
+  </a>
+  </span></li>
+</ul>
+</details>
+
+<details open>
+<summary>Part V. Emerging Topics</summary>
+<ul class="chapters">
+  <li><span class="chapter-title">19. Causality and Extremes</span><br><span class="chapter-authors">Code: 
+  <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter19" target="_blank" rel="noopener"
+   style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
+  <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
+    <path fill="currentColor"
+      d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+      0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+      -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+      2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+      0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+      0 0 .67-.21 2.2.82a7.7 7.7 0 012-.27c.68 0 1.36.09 2 .27
+      1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+      .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95
+      .29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2
+      0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+  </svg>
+  </a>
+  </span></li>
+  <li><span class="chapter-title">20. On the Simulation of Extreme Events with Neural Networks</span><br><span class="chapter-authors">Code: 
+  <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter20" target="_blank" rel="noopener"
+   style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
+  <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
+    <path fill="currentColor"
+      d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+      0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+      -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+      2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+      0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+      0 0 .67-.21 2.2.82a7.7 7.7 0 012-.27c.68 0 1.36.09 2 .27
+      1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+      .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95
+      .29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2
+      0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+  </svg>
+  </a>
+  </span></li>
+  <li><span class="chapter-title">21. Extreme Quantile Regression with Deep Learning</span><br><span class="chapter-authors">Code: 
+  <a href="https://github.com/Jbrich95/extQuantRegressDL" target="_blank" rel="noopener"
+   style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
+  <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
+    <path fill="currentColor"
+      d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+      0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+      -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+      2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+      0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+      0 0 .67-.21 2.2.82a7.7 7.7 0 012-.27c.68 0 1.36.09 2 .27
+      1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+      .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95
+      .29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2
+      0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+  </svg>
+  </a>
+  </span></li>
+  <li><span class="chapter-title">22. Risk Measures Beyond Quantiles</span><br><span class="chapter-authors">Code: 
+  <a href="https://github.com/gillesstupfler/HandbookRiskMeasures" target="_blank" rel="noopener"
+   style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
+  <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
+    <path fill="currentColor"
+      d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+      0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+      -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+      2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+      0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+      0 0 .67-.21 2.2.82a7.7 7.7 0 012-.27c.68 0 1.36.09 2 .27
+      1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+      .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95
+      .29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2
+      0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+  </svg>
+  </a>
+  </span></li>
+</ul>
+</details>
+
+<details open>
+<summary>Part VI. Applications and Case Studies</summary>
+<ul class="chapters">
+  <li><span class="chapter-title">23. Detection and Attribution of Extreme Weather Events: A Statistical Review</span><br><span class="chapter-authors">Code: 
+  <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter23" target="_blank" rel="noopener"
+   style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
+  <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
+    <path fill="currentColor"
+      d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+      0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+      -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+      2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+      0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+      0 0 .67-.21 2.2.82a7.7 7.7 0 012-.27c.68 0 1.36.09 2 .27
+      1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+      .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95
+      .29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2
+      0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+  </svg>
+  </a></span></li>
+  <li><span class="chapter-title">24. Evaluation of Extreme Forecasts and Projections</span><br><span class="chapter-authors">
+  Code: <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter23" target="_blank" rel="noopener"
+   style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
+  <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
+    <path fill="currentColor"
+      d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+      0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+      -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+      2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+      0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+      0 0 .67-.21 2.2.82a7.7 7.7 0 012-.27c.68 0 1.36.09 2 .27
+      1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+      .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95
+      .29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2
+      0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+  </svg>
+  </a></span></li>
+  <li><span class="chapter-title">25. Statistical Modeling of Extreme Precipitation</span><br><span class="chapter-authors">Code: 
+  <a href="http://github.com/cgaetan/Handbook-on-Statistics-of-Extremes-Chapter25" target="_blank" rel="noopener"
+   style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
+  <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
+    <path fill="currentColor"
+      d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+      0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+      -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+      2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+      0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+      0 0 .67-.21 2.2.82a7.7 7.7 0 012-.27c.68 0 1.36.09 2 .27
+      1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+      .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95
+      .29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2
+      0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+  </svg>
+  </a>
+  </span></li>
+  <li><span class="chapter-title">26. Statistics of Extremes for Wildfires</span><br><span class="chapter-authors">
+  Code: <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter23" target="_blank" rel="noopener"
+   style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
+  <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
+    <path fill="currentColor"
+      d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+      0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+      -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+      2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+      0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+      0 0 .67-.21 2.2.82a7.7 7.7 0 012-.27c.68 0 1.36.09 2 .27
+      1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+      .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95
+      .29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2
+      0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+  </svg>
+  </a></span></li>
+  <li><span class="chapter-title">27. Statistics of Extremes for Landslides and Earthquakes</span><br><span class="chapter-authors">Code: 
+  <a href="https://github.com/yadavrishikesh/JM.landslide/" target="_blank" rel="noopener"
+   style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
+  <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
+    <path fill="currentColor"
+      d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+      0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+      -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+      2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+      0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+      0 0 .67-.21 2.2.82a7.7 7.7 0 012-.27c.68 0 1.36.09 2 .27
+      1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+      .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95
+      .29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2
+      0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+  </svg>
+  </a>
+  </span></li>
+  <li><span class="chapter-title">28. Tail Risk Analysis for Financial Time Series</span><br><span class="chapter-authors">
+  Code: <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter23" target="_blank" rel="noopener"
+   style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
+  <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
+    <path fill="currentColor"
+      d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+      0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+      -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+      2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+      0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+      0 0 .67-.21 2.2.82a7.7 7.7 0 012-.27c.68 0 1.36.09 2 .27
+      1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+      .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95
+      .29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2
+      0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+  </svg>
+  </a></span></li>
+  <li><span class="chapter-title">29. Statistics of Extremes for the Insurance Industry</span><br><span class="chapter-authors">
+  Code: <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter23" target="_blank" rel="noopener"
+   style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
+  <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
+    <path fill="currentColor"
+      d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+      0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+      -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+      2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+      0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+      0 0 .67-.21 2.2.82a7.7 7.7 0 012-.27c.68 0 1.36.09 2 .27
+      1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+      .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95
+      .29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2
+      0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+  </svg>
+  </a></span></li>
+  <li><span class="chapter-title">30. Statistics of Extremes for Neuroscience</span><br><span class="chapter-authors">Code: 
+    <a href="https://github.com/ptredondo/HSE_Chap30_Neuroscience" target="_blank" rel="noopener"
+   style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
+  <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
+    <path fill="currentColor"
+      d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+      0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+      -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+      2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+      0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+      0 0 .67-.21 2.2.82a7.7 7.7 0 012-.27c.68 0 1.36.09 2 .27
+      1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+      .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95
+      .29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2
+      0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+  </svg>
+  </a>
+  </span></li>
+  <li><span class="chapter-title">31. Statistics of Extremes for Incomplete Data, with Application to Lifetime and Liability Claim Modeling</span><br><span class="chapter-authors">Code: 
+  <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter23" target="_blank" rel="noopener"
+   style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
+  <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
+    <path fill="currentColor"
+      d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+      0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+      -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+      2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+      0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12
+      0 0 .67-.21 2.2.82a7.7 7.7 0 012-.27c.68 0 1.36.09 2 .27
+      1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+      .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95
+      .29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2
+      0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+  </svg>
+  </a>
+  </span></li>
+</ul>
+</details>
+
 </div>
 
 <hr class="book-rule">
