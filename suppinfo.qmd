@@ -579,7 +579,7 @@ This page is currently under construction.
   </svg>
   </a></span></li>
   <li><span class="chapter-title">24. Evaluation of Extreme Forecasts and Projections</span><br><span class="chapter-authors">
-  Code: <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter23" target="_blank" rel="noopener"
+  Code: <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter24" target="_blank" rel="noopener"
    style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
   <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
     <path fill="currentColor"
@@ -614,7 +614,7 @@ This page is currently under construction.
   </a>
   </span></li>
   <li><span class="chapter-title">26. Statistics of Extremes for Wildfires</span><br><span class="chapter-authors">
-  Code: <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter23" target="_blank" rel="noopener"
+  Code: <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter26" target="_blank" rel="noopener"
    style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
   <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
     <path fill="currentColor"
@@ -649,7 +649,7 @@ This page is currently under construction.
   </a>
   </span></li>
   <li><span class="chapter-title">28. Tail Risk Analysis for Financial Time Series</span><br><span class="chapter-authors">
-  Code: <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter23" target="_blank" rel="noopener"
+  Code: <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter28" target="_blank" rel="noopener"
    style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
   <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
     <path fill="currentColor"
@@ -666,7 +666,7 @@ This page is currently under construction.
   </svg>
   </a></span></li>
   <li><span class="chapter-title">29. Statistics of Extremes for the Insurance Industry</span><br><span class="chapter-authors">
-  Code: <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter23" target="_blank" rel="noopener"
+  Code: <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter29" target="_blank" rel="noopener"
    style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
   <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
     <path fill="currentColor"
@@ -701,7 +701,7 @@ This page is currently under construction.
   </a>
   </span></li>
   <li><span class="chapter-title">31. Statistics of Extremes for Incomplete Data, with Application to Lifetime and Liability Claim Modeling</span><br><span class="chapter-authors">Code: 
-  <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter23" target="_blank" rel="noopener"
+  <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter31" target="_blank" rel="noopener"
    style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
   <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
     <path fill="currentColor"
