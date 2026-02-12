@@ -232,7 +232,7 @@ This page is currently under construction.
   </a>
   </span></li>
   <li><span class="chapter-title">5. Jointly Modeling the Bulk and Tails</span><br><span class="chapter-authors">Code: 
-  <a href="https://github.com/noemielc/egpd4gamlss" target="_blank" rel="noopener"
+  <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter5" target="_blank" rel="noopener"
    style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
   <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
     <path fill="currentColor"
@@ -406,7 +406,7 @@ This page is currently under construction.
   </a>
   </span></li>
   <li><span class="chapter-title">15. Max-Stable Processes for Spatial Extremes</span><br><span class="chapter-authors">Code: 
-  <a href="https://github.com/strokorb/max-stable-spatial-inference" target="_blank" rel="noopener"
+  <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter15" target="_blank" rel="noopener"
    style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
   <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
     <path fill="currentColor"
@@ -442,7 +442,7 @@ This page is currently under construction.
   </a>
   </span></li>
   <li><span class="chapter-title">17. Subasymptotic Models for Spatial Extremes</span><br><span class="chapter-authors">Code:
-  <a href="https://github.com/likun-stat/Ch_Subasymptotic" target="_blank" rel="noopener"
+  <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter17" target="_blank" rel="noopener"
    style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
   <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
     <path fill="currentColor"
@@ -520,7 +520,7 @@ This page is currently under construction.
   </a>
   </span></li>
   <li><span class="chapter-title">21. Extreme Quantile Regression with Deep Learning</span><br><span class="chapter-authors">Code: 
-  <a href="https://github.com/Jbrich95/extQuantRegressDL" target="_blank" rel="noopener"
+  <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter21" target="_blank" rel="noopener"
    style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
   <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
     <path fill="currentColor"
@@ -538,7 +538,7 @@ This page is currently under construction.
   </a>
   </span></li>
   <li><span class="chapter-title">22. Risk Measures Beyond Quantiles</span><br><span class="chapter-authors">Code: 
-  <a href="https://github.com/gillesstupfler/HandbookRiskMeasures" target="_blank" rel="noopener"
+  <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter22" target="_blank" rel="noopener"
    style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
   <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
     <path fill="currentColor"
@@ -631,7 +631,7 @@ This page is currently under construction.
   </svg>
   </a></span></li>
   <li><span class="chapter-title">27. Statistics of Extremes for Landslides and Earthquakes</span><br><span class="chapter-authors">Code: 
-  <a href="https://github.com/yadavrishikesh/JM.landslide/" target="_blank" rel="noopener"
+  <a href="https://github.com/ExtremeStats/HandbookCode/tree/Chapter27" target="_blank" rel="noopener"
    style="display:inline-flex; align-items:center; gap:0.4em; text-decoration:none;">
   <svg height="20" viewBox="0 0 16 16" width="20" aria-hidden="true">
     <path fill="currentColor"
