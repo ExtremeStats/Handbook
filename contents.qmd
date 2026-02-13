@@ -50,7 +50,7 @@ engine: knitr
 
 ```
 
-![](images/cover.jpg){width="150px"}  
+![](images/cover.jpg){width="175px"}  
 
 ## Contents 
 ```{=html}
