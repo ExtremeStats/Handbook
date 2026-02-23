@@ -4,6 +4,16 @@ subtitle: "Handbook of Statistics of Extremes"
 engine: knitr
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QV5HXBYC7Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QV5HXBYC7Q');
+</script>
+
 ```{css, echo = FALSE}
 .justify {
   text-align: justify !important
