@@ -217,7 +217,7 @@ To cite <code>DATAstudio</code> in publications, here is the <a href="bib/DATAst
   <li><span class="chapter-title">14. Time Series in Extremes</span><br><span class="chapter-authors">Dataset: TBA</span></li>
   <li><span class="chapter-title">15. Max-Stable Processes for Spatial Extremes</span><br><span class="chapter-authors">Dataset: <code>maxtemps</code></span></li>
   <li><span class="chapter-title">16. Pareto Processes for Threshold Exceedances in Spatial Extremes</span><br><span class="chapter-authors">Dataset: <code>waveheights</code></span></li>
-  <li><span class="chapter-title">17. Subasymptotic Models for Spatial Extremes</span><br><span class="chapter-authors">Dataset: TBA</span></li>
+  <li><span class="chapter-title">17. Subasymptotic Models for Spatial Extremes</span><br><span class="chapter-authors">Dataset: <code>pnw</code></span></li>
   <li><span class="chapter-title">18. Space-Time Modeling of Extremes</span><br><span class="chapter-authors">Dataset: None</span></li>
 </ul>
 </details>
